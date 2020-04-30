@@ -25,8 +25,8 @@ This repository contains the following categories split into multiple files:
 - [analytics.txt](./lists/analytics.txt): Services that provide visitor analysis/profiling.
 - [fakenews.txt](./lists/fakenews.txt): Services that deliberately provide wrong information.
 - [fraud.txt](./lists/fraud.txt): Services that scam people.
-- [maleware.txt](./lists/maleware.txt): Services that are (ab)used for attacking devices through technical means.
-- [phishing.txt](./lists/phishing.txt): Services that engage in credential or credit-card fishing.
+- [malware.txt](./lists/malware.txt): Services that are (ab)used for attacking devices through technical means.
+- [phishing.txt](./lists/phishing.txt): Services that engage in credential fishing.
 - [telemetry.txt](./lists/telemetry.txt): Services that collect application telemetry.
 - [tracking-other.txt](./lists/tracking-other.txt): Services that are believed to serve ads or track users, but their exact use is unknown or not categorized.
 
@@ -43,7 +43,7 @@ Join our community around forging powerful privacy tools at reddit:
 
 ### Filterlists
 
-When contributing new domains for the filter list categories, please make sure follow the few principels outlined here:
+When contributing new domains for the filter list categories, please make sure to follow the few principels outlined here:
 
 
 **Open an Issue / PR**
