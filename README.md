@@ -8,7 +8,7 @@
 <div align="center">
 
 [![maintained](https://img.shields.io/maintenance/yes/2020?label=maintained&style=flat-square)](https://github.com/safing/intel-data/commits/master)
-[![maintained](https://img.shields.io/reddit/subreddit-subscribers/safing?style=flat-square)](https://www.reddit.com/r/safing)
+[![maintained](https://img.shields.io/reddit/subreddit-subscribers/safing?style=flat-square&color=blue)](https://www.reddit.com/r/safing)
 
 </div>
 <hr>
@@ -38,7 +38,7 @@ Contributions of any kind are welcome! Thanks for taking the time to contribute!
 
 Join our community around forging powerful privacy tools at reddit:
 
-[![maintained](https://img.shields.io/reddit/subreddit-subscribers/safing?style=flat-square)](https://www.reddit.com/r/safing)
+[![maintained](https://img.shields.io/reddit/subreddit-subscribers/safing?style=flat-square&color=blue)](https://www.reddit.com/r/safing)
 
 
 ### Filterlists
