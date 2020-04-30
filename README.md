@@ -21,14 +21,14 @@ Note that this repository is meant as an addition to various other filterlists a
 
 This repository contains the following categories split into multiple files:
 
-- [ads.txt](./ads.txt): Services that serve ads and track their audiences.
-- [analytics.txt](./analytics.txt): Services that provide visitor analysis/profiling.
-- [fakenews.txt](./fakenews.txt): Services that deliberately provide wrong information.
-- [fraud.txt](./fraud.txt): Services that scam people.
-- [maleware.txt](./maleware.txt): Services that are (ab)used for attacking devices through technical means.
-- [phishing.txt](./phishing.txt): Services that engage in credential or credit-card fishing.
-- [telemetry.txt](./telemetry.txt): Services that collect application telemetry.
-- [tracking-other.txt](./tracking-other.txt): Services that are believed to serve ads or track users, but their exact use is unknown or not categorized.
+- [ads.txt](./lists/ads.txt): Services that serve ads and track their audiences.
+- [analytics.txt](./lists/analytics.txt): Services that provide visitor analysis/profiling.
+- [fakenews.txt](./lists/fakenews.txt): Services that deliberately provide wrong information.
+- [fraud.txt](./lists/fraud.txt): Services that scam people.
+- [maleware.txt](./lists/maleware.txt): Services that are (ab)used for attacking devices through technical means.
+- [phishing.txt](./lists/phishing.txt): Services that engage in credential or credit-card fishing.
+- [telemetry.txt](./lists/telemetry.txt): Services that collect application telemetry.
+- [tracking-other.txt](./lists/tracking-other.txt): Services that are believed to serve ads or track users, but their exact use is unknown or not categorized.
 
 ## Contributing
 
