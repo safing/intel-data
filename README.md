@@ -23,7 +23,6 @@ This repository contains the following categories split into multiple files:
 
 - [ads.txt](./lists/ads.txt): Services that serve ads and track their audiences.
 - [analytics.txt](./lists/analytics.txt): Services that provide visitor analysis/profiling.
-- [fakenews.txt](./lists/fakenews.txt): Services that deliberately provide wrong information.
 - [fraud.txt](./lists/fraud.txt): Services that scam people.
 - [malware.txt](./lists/malware.txt): Services that are (ab)used for attacking devices through technical means.
 - [phishing.txt](./lists/phishing.txt): Services that engage in credential fishing.
