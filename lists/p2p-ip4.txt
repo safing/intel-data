@@ -1,0 +1,8 @@
+# Copyright by Intel-Data Authors
+# Managed by Safing at https://github.com/safing/intel-data
+# License: CC-BY-SA-4.0
+
+113.32.111.126
+113.32.111.127
+203.183.172.196
+23.21.150.121

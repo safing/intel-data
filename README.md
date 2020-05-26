@@ -28,6 +28,12 @@ This repository contains the following categories split into multiple files:
 - [phishing.txt](./lists/phishing.txt): Services that engage in credential fishing.
 - [telemetry.txt](./lists/telemetry.txt): Services that collect application telemetry.
 - [tracking-other.txt](./lists/tracking-other.txt): Services that are believed to serve ads or track users, but their exact use is unknown or not categorized.
+- [securedns.txt](./lists/securedns.txt): Services that provide secure DNS resolving. Used for bypass prevention.
+- [securedns-ip4.txt](./lists/securedns-ip4.txt): Same, but IPv4 addresses.
+- [securedns-ip6.txt](./lists/securedns-ip6.txt): Same, but IPv6 addresses.
+- [p2p.txt](./lists/p2p.txt): Services that provide STUN, TURN, ICE or similar services that expose the user's IP address and enable peer to peer networking behind NAT. Used for advanced privacy protection.
+- [p2p-ip4.txt](./lists/p2p-ip4.txt): Same, but IPv4 addresses.
+- [p2p-ip6.txt](./lists/p2p-ip6.txt): Same, but IPv6 addresses.
 
 ## Contributing
 
