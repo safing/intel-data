@@ -1,7 +1,8 @@
 <div align="center">
-    <h2>Intelligence Data</h2>
+    <h2>Filterlists and Intelligence Data</h2>
     <p align="center">
-        <strong>Filterlists and intel managed by @Safing</strong>
+        <strong>by the community, for the community</strong><br />
+        managed by Safing
     </p>
 </div>
 
@@ -13,13 +14,19 @@
 </div>
 <hr>
 
-This repository contains filterlists and other intelligence data used by the [Portmaster](https://github.com/safing/portmaster) and managed by Safing. It contains multiple files for various categories, see below for a list of available lists.
+This repository contains filterlists and other intelligence data used by the [Portmaster](https://github.com/safing/portmaster).  
+It is maintained by the community and managed by Safing.
 
-Note that this repository is meant as an addition to various other filterlists available. Checkout the awesome <b><i>[filterlists.com](https://filterlists.com)</i></b> site too!
+## External Sources
 
-## Categories
+All Portmaster's external sources are listed in the [sources.yml](./lists/sources.yml).
 
-This repository contains the following categories split into multiple files:
+Currently, the Portmaster cannot yet ingest custom sources directly. If you know about a great source, please open an issue so we can discuss adding it.  
+If you came here for the sources, also check out [filterlists.com](https://filterlists.com).
+
+## Filter Lists
+
+These lists are managed in this repo:
 
 - [ads.txt](./lists/ads.txt): Services that serve ads and track their audiences.
 - [analytics.txt](./lists/analytics.txt): Services that provide visitor analysis/profiling.
@@ -50,27 +57,24 @@ Join our community around forging powerful privacy tools at reddit:
 
 When contributing new domains for the filter list categories, please make sure to follow the few principels outlined here:
 
-
 **Open an Issue / PR**
 
-All contributions to this repository should be preceeded by an issue. The issue or PR
-number should *always* be added as a comment to the added filterlist entry. This allows for better reasoning of why an entry has been added and also provides guidance to verify if a list entry is still relevant (see below).
+All contributions to this repository should be preceeded by an issue. Please always add a description, so one can quickly understand why the domain is in the list.
 
 For example:
 ```
-some-tracking-domain.com  #100
+some-tracking-domain.com  # short description
 ```
 
 **Ordering of list entries**
 
-If you plan to add new domains to one ore more of the filterlist categories contained in this repository please make sure to add them to the end of the file. This will allow users to reason about how old list entries are and if the may be obsolete.
+If you plan to add new domains to one ore more of the filterlists, please make sure to add them to the end of the file. This will allow users to reason about how old list entries are and if the may be obsolete.
 
 If you took time and verified some of the top (and oldest) list entries, please move them to the bottom of the file if they are still relevant.
 
 **Commit message**
 
-You are free to describe the reason for the commit in the commit message but please always start the commit with `Fixes #12` so the issue get's closed when merged and
-github will link the commit to the issue to find all the details and discussions.
+You are free to describe the reason for the commit in the commit message but please always start the commit with `Fixes #12` so the issue get's closed when merged and Github will link the commit to the issue to find all the details and discussions.
 
 ## License
 
