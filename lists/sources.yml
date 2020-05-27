@@ -1,7 +1,6 @@
 version: "v2020.03.25"
 schemaVersion: "v1.0.0"
 categories:
-
   - name: "Ads & Trackers"
     id: "TRAC"
     description: "Services that track and profile people online."
@@ -65,7 +64,6 @@ categories:
     id: "GAMBL"
     description: "Services that provide pornographic content in addition to other content that is safe for work."
     parent: "NSFW"
-
 
 sources:
   - name: "AdAway Ads List"
@@ -172,7 +170,7 @@ sources:
     url: "http://winhelp2002.mvps.org/hosts.zip"
     type: "Domain"
     parser: "hostsfile"
-    transformer: 
+    transformer:
       type: "unzip"
       args:
         file: hosts
