@@ -280,7 +280,7 @@ sources:
     license: "CC-BY-4.0"
 
   - name: "Safing Ads"
-    id: "SAFING-ADS"
+    id: "17-ADS"
     description: "Services that serve ads and track their audiences."
     category: "ADS"
     url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/ads.txt"
@@ -291,7 +291,7 @@ sources:
     license: "CC-BY-SA-4.0"
 
   - name: "Safing Analytics"
-    id: "SAFING-ANALYTICS"
+    id: "17-ALYTC"
     description: "Services that provide visitor analysis/profiling."
     category: "ALYTC"
     url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/analytics.txt"
@@ -302,7 +302,7 @@ sources:
     license: "CC-BY-SA-4.0"
 
   - name: "Safing Fraud"
-    id: "SAFING-FRAUD"
+    id: "17-FRD"
     description: "Services that scam people."
     category: "FRAUD"
     url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/fraud.txt"
@@ -313,7 +313,7 @@ sources:
     license: "CC-BY-SA-4.0"
 
   - name: "Safing Malware"
-    id: "SAFING-MAL"
+    id: "17-MAL"
     description: "Services that are (ab)used for attacking devices through technical means."
     category: "MAL"
     url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/malware.txt"
@@ -324,7 +324,7 @@ sources:
     license: "CC-BY-SA-4.0"
 
   - name: "Safing Phishing"
-    id: "SAFING-PHISH"
+    id: "17-PSH"
     description: "Services that engage in credential fishing."
     category: "PHISH"
     url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/phishing.txt"
@@ -335,7 +335,7 @@ sources:
     license: "CC-BY-SA-4.0"
 
   - name: "Safing Telemetry"
-    id: "SAFING-TELEM"
+    id: "17-TEL"
     description: "Services that collect application telemetry."
     category: "TELEM"
     url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/telemetry.txt"
@@ -346,7 +346,7 @@ sources:
     license: "CC-BY-SA-4.0"
 
   - name: "Safing Tracking"
-    id: "SAFING-TRACO"
+    id: "17-TRACO"
     description: "Services that are believed to serve ads or track users, but their exact use is unknown or not categorized."
     category: "TRACO"
     url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/tracking-other.txt"
