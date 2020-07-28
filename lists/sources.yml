@@ -413,7 +413,7 @@ sources:
     id: "DNSBH-D"
     description: "Services that are suspicious and are likely to engage in malicious activity."
     category: "BAD"
-    url: "https://dshield.org/feeds/suspiciousdomains_Low.txt"
+    url: "http://mirror1.malwaredomains.com/files/domains.txt"
     type: "Domain"
     parser: "domainlist-firstcolumn"
     website: "http://www.malwaredomains.com/"
