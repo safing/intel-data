@@ -74,4 +74,3 @@
 2a07:a8c1:: # dns.nextdns.io
 2a0d:4d00:81::1 # doh.dnslify.com
 2a0d:5600:33:3::abcd # doh.eastus.pi-dns.com
-libredns.gr. # doh.libredns.gr

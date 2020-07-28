@@ -69,3 +69,4 @@ protected.canadianshield.cira.ca
 rdns.faelix.net
 resolver-eu.lelux.fi
 security.cloudflare-dns.com
+libredns.gr. # doh.libredns.gr

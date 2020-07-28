@@ -113,7 +113,6 @@ stun.kanet.ru
 stun.kiwilink.co.nz
 stun.kundenserver.de
 stun.l.google.com
-stun.l.google.com:19302
 stun.linea7.net
 stun.linphone.org
 stun.liveo.fr
@@ -180,7 +179,6 @@ stun.sigmavoip.com
 stun.sip.us
 stun.sipdiscount.com
 stun.sipgate.net
-stun.sipgate.net:10000
 stun.siplogin.de
 stun.sipnet.net
 stun.sipnet.ru
