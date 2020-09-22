@@ -1,4 +1,4 @@
-version: "v2020.03.25"
+version: "v2020.09.24"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
@@ -71,7 +71,7 @@ sources:
     description: "Ads list by AdAway - an open source ad blocker for Android."
     category: "ADS"
     urls:
-      url: "https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt"
+    - url: "https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt"
       type: "Domain"
       parser: "hostsfile"
     website: "https://adaway.org/"
@@ -83,7 +83,7 @@ sources:
     description: "Collection of Domain used by cryptominers"
     category: "MAL"
     urls:
-      url: "https://zerodot1.gitlab.io/CoinBlockerLists/list.txt"
+    - url: "https://zerodot1.gitlab.io/CoinBlockerLists/list.txt"
       type: "Domain"
       parser: "domainlist"
     website: "https://zerodot1.gitlab.io/CoinBlockerListsWeb/"
@@ -95,7 +95,7 @@ sources:
     description: "List of miscellaneous bad stuff by Dan Pollock."
     category: "BAD"
     urls:
-      url: "https://someonewhocares.org/hosts/zero/hosts"
+    - url: "https://someonewhocares.org/hosts/zero/hosts"
       type: "Domain"
       parser: "hostsfile"
     website: "https://someonewhocares.org/hosts/"
@@ -107,7 +107,7 @@ sources:
     description: "Basic tracking list by Disconnect.me."
     category: "ALYTC"
     urls:
-      url: "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt"
+    - url: "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt"
       type: "Domain"
       parser: "domainlist"
     website: "https://disconnect.me/"
@@ -118,7 +118,7 @@ sources:
     description: "Basic ad filter list by Disconnect.me."
     category: "ADS"
     urls:
-      url: "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt"
+    - url: "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt"
       type: "Domain"
       parser: "domainlist"
     website: "https://disconnect.me/"
@@ -129,7 +129,7 @@ sources:
     description: "hostsVN's collection of ad services, with a local focus on Vietnam."
     category: "ADS"
     urls:
-      url: "https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-VN"
+    - url: "https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-VN"
       type: "Domain"
       parser: "hostsfile"
     website: "https://bigdargon.github.io/hostsVN/"
@@ -141,7 +141,7 @@ sources:
     description: "hostsVN's collection of gambling websites, with a local focus on Vietnam."
     category: "GAMBL"
     urls:
-      url: "https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-gambling"
+    - url: "https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-gambling"
       type: "Domain"
       parser: "hostsfile"
     website: "https://bigdargon.github.io/hostsVN/"
@@ -153,7 +153,7 @@ sources:
     description: "Malware Domain List is a non-commercial community project."
     category: "MAL"
     urls:
-      url: "https://www.malwaredomainlist.com/hostslist/hosts.txt"
+    - url: "https://www.malwaredomainlist.com/hostslist/hosts.txt"
       type: "Domain"
       parser: "hostsfile"
     website: "https://www.malwaredomainlist.com/"
@@ -165,7 +165,7 @@ sources:
     description: "An in-progress collection of fake news outlets."
     category: "FAKEN"
     urls:
-      url: "https://raw.githubusercontent.com/marktron/fakenews/master/fakenews"
+    - url: "https://raw.githubusercontent.com/marktron/fakenews/master/fakenews"
       type: "Domain"
       parser: "hostsfile"
     website: "https://github.com/marktron/fakenews"
@@ -177,7 +177,7 @@ sources:
     description: "List of ads, malware and other things."
     category: "BAD"
     urls:
-      url: "http://winhelp2002.mvps.org/hosts.zip"
+    - url: "http://winhelp2002.mvps.org/hosts.zip"
       type: "Domain"
       parser: "hostsfile"
       transformer:
@@ -193,7 +193,7 @@ sources:
     description: "List of ad, malware, tracking, anti-adblock and other nasty services."
     category: "BAD"
     urls:
-      url: "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&mimetype=plaintext"
+    - url: "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&mimetype=plaintext"
       type: "Domain"
       parser: "domainlist"
     website: "https://pgl.yoyo.org/adservers"
@@ -205,7 +205,7 @@ sources:
     description: "Niclas' Pornhosts is an endeavour to find all porn Domain."
     category: "PORN"
     urls:
-      url: "https://raw.githubusercontent.com/Clefspeare13/pornhosts/master/0.0.0.0/hosts"
+    - url: "https://raw.githubusercontent.com/Clefspeare13/pornhosts/master/0.0.0.0/hosts"
       type: "Domain"
       parser: "hostsfile"
     website: "https://github.com/Clefspeare13/pornhosts"
@@ -217,7 +217,7 @@ sources:
     description: "Sinfonietta's collection of gambling websites."
     category: "GAMBL"
     urls:
-      url: "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/gambling-hosts"
+    - url: "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/gambling-hosts"
       type: "Domain"
       parser: "hostsfile"
     website: "https://github.com/Sinfonietta/hostfiles"
@@ -229,7 +229,7 @@ sources:
     description: "Sinfonietta's collection of gore websites."
     category: "VIOL"
     urls:
-      url: "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/snuff-hosts"
+    - url: "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/snuff-hosts"
       type: "Domain"
       parser: "hostsfile"
     website: "https://github.com/Sinfonietta/hostfiles"
@@ -241,7 +241,7 @@ sources:
     description: "Sinfonietta's collection of pornography websites."
     category: "PORN"
     urls:
-      url: "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts"
+    - url: "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts"
       type: "Domain"
       parser: "hostsfile"
     website: "https://github.com/Sinfonietta/hostfiles"
@@ -253,7 +253,7 @@ sources:
     description: "Collection of many ads and malware Domain."
     category: "BAD"
     urls:
-      url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+    - url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
       type: "Domain"
       parser: "hostsfile"
     website: "https://github.com/StevenBlack/hosts"
@@ -265,7 +265,7 @@ sources:
     description: "Miscellaneous sketch Domain Steven Black comes across."
     category: "BAD"
     urls:
-      url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts"
+    - url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts"
       type: "Domain"
       parser: "hostsfile"
     website: "https://github.com/StevenBlack/hosts/blob/master/data/StevenBlack/hosts"
@@ -277,7 +277,7 @@ sources:
     description: "Tiuxo's collection of ad services, with a local focus on Japan."
     category: "ADS"
     urls:
-      url: "https://raw.githubusercontent.com/tiuxo/hosts/master/ads"
+    - url: "https://raw.githubusercontent.com/tiuxo/hosts/master/ads"
       type: "Domain"
       parser: "hostsfile"
     website: "https://github.com/tiuxo/hosts"
@@ -289,7 +289,7 @@ sources:
     description: "Tiuxo's collection of pornography websites, with a local focus on Japan"
     category: "ADS"
     urls:
-      url: "https://raw.githubusercontent.com/tiuxo/hosts/master/porn"
+    - url: "https://raw.githubusercontent.com/tiuxo/hosts/master/porn"
       type: "Domain"
       parser: "hostsfile"
     website: "https://github.com/tiuxo/hosts"
@@ -301,7 +301,7 @@ sources:
     description: "Services that serve ads and track their audiences."
     category: "ADS"
     urls:
-      url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/ads.txt"
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/ads.txt"
       type: "Domain"
       parser: "domainlist"
     website: "https://github.com/safing/intel-data"
@@ -313,7 +313,7 @@ sources:
     description: "Services that provide visitor analysis/profiling."
     category: "ALYTC"
     urls:
-      url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/analytics.txt"
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/analytics.txt"
       type: "Domain"
       parser: "domainlist"
     website: "https://github.com/safing/intel-data"
@@ -325,7 +325,7 @@ sources:
     description: "Services that scam people."
     category: "FRAUD"
     urls:
-      url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/fraud.txt"
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/fraud.txt"
       type: "Domain"
       parser: "domainlist"
     website: "https://github.com/safing/intel-data"
@@ -337,7 +337,7 @@ sources:
     description: "Services that are (ab)used for attacking devices through technical means."
     category: "MAL"
     urls:
-      url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/malware.txt"
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/malware.txt"
       type: "Domain"
       parser: "domainlist"
     website: "https://github.com/safing/intel-data"
@@ -349,7 +349,7 @@ sources:
     description: "Services that engage in credential fishing."
     category: "PHISH"
     urls:
-      url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/phishing.txt"
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/phishing.txt"
       type: "Domain"
       parser: "domainlist"
     website: "https://github.com/safing/intel-data"
@@ -361,7 +361,7 @@ sources:
     description: "Services that collect application telemetry."
     category: "TELEM"
     urls:
-      url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/telemetry.txt"
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/telemetry.txt"
       type: "Domain"
       parser: "domainlist"
     website: "https://github.com/safing/intel-data"
@@ -373,7 +373,7 @@ sources:
     description: "Services that are believed to serve ads or track users, but their exact use is unknown or not categorized."
     category: "TRACO"
     urls:
-      url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/tracking-other.txt"
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/tracking-other.txt"
       type: "Domain"
       parser: "domainlist"
     website: "https://github.com/safing/intel-data"
@@ -385,7 +385,7 @@ sources:
     description: "Services that Windows uses for telemetry and related activity."
     category: "TELEM"
     urls:
-      url: "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt"
+    - url: "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt"
       type: "Domain"
       parser: "hostsfile"
     website: "https://github.com/crazy-max/WindowsSpyBlocker"
@@ -397,7 +397,7 @@ sources:
     description: "Services that are malicious and deceptive, possibly hacked and abused. Possibility of false positives."
     category: "BAD"
     urls:
-      url: "https://urlhaus.abuse.ch/downloads/hostfile/"
+    - url: "https://urlhaus.abuse.ch/downloads/hostfile/"
       type: "Domain"
       parser: "hostsfile"
     website: "https://urlhaus.abuse.ch/"
@@ -409,7 +409,7 @@ sources:
     description: "Services that are suspicious and are very likely to engage in malicious activity."
     category: "BAD"
     urls:
-      url: "https://dshield.org/feeds/suspiciousdomains_High.txt"
+    - url: "https://dshield.org/feeds/suspiciousdomains_High.txt"
       type: "Domain"
       parser: "domainlist-firstcolumn"
     website: "https://dshield.org/suspicious_domains.html"
@@ -421,7 +421,7 @@ sources:
     description: "Services that are suspicious and are likely to engage in malicious activity."
     category: "BAD"
     urls:
-      url: "https://dshield.org/feeds/suspiciousdomains_Medium.txt"
+    - url: "https://dshield.org/feeds/suspiciousdomains_Medium.txt"
       type: "Domain"
       parser: "domainlist-firstcolumn"
     website: "https://dshield.org/suspicious_domains.html"
@@ -433,7 +433,7 @@ sources:
     description: "Services that are suspicious and are somewhat likely to engage in malicious activity."
     category: "BAD"
     urls:
-      url: "https://dshield.org/feeds/suspiciousdomains_Low.txt"
+    - url: "https://dshield.org/feeds/suspiciousdomains_Low.txt"
       type: "Domain"
       parser: "domainlist-firstcolumn"
     website: "https://dshield.org/suspicious_domains.html"
@@ -445,7 +445,7 @@ sources:
     description: "Services that are suspicious and are likely to engage in malicious activity."
     category: "BAD"
     urls:
-      url: "http://mirror1.malwaredomains.com/files/domains.txt"
+    - url: "http://mirror1.malwaredomains.com/files/domains.txt"
       type: "Domain"
       parser: "domainlist-firstcolumn"
     website: "http://www.malwaredomains.com/"
@@ -457,19 +457,19 @@ sources:
     description: "Services that are suspicious and are likely to engage in malicious activity. This list contains domains that have lived for a long time."
     category: "BAD"
     urls:
-      url: "http://mirror1.malwaredomains.com/files/immortal_domains.txt"
+    - url: "http://mirror1.malwaredomains.com/files/immortal_domains.txt"
       type: "Domain"
       parser: "domainlist"
     website: "http://www.malwaredomains.com/"
     contribute: "http://www.malwaredomains.com/?page_id=13"
     license: "free for noncommercial use"
-
+   
   - name: "BlockConvert Collection"
     id: "BCC"
     description: "Services that do bad stuff. Possibly has a high rate of false positives."
     category: "BADC"
     urls:
-      url: "https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/domains.txt"
+    - url: "https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/domains.txt?nogit"
       type: "Domain"
       parser: "domainlist"
     website: "https://github.com/mkb2091/blockconvert"
