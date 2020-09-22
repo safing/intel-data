@@ -1,4 +1,4 @@
-version: "v2020.09.24"
+version: "v2020.09.22"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
@@ -463,18 +463,6 @@ sources:
     website: "http://www.malwaredomains.com/"
     contribute: "http://www.malwaredomains.com/?page_id=13"
     license: "free for noncommercial use"
-   
-  - name: "BlockConvert Collection"
-    id: "BCC"
-    description: "Services that do bad stuff. Possibly has a high rate of false positives."
-    category: "BADC"
-    urls:
-    - url: "https://raw.githubusercontent.com/mkb2091/blockconvert/master/output/domains.txt?nogit"
-      type: "Domain"
-      parser: "domainlist"
-    website: "https://github.com/mkb2091/blockconvert"
-    contribute: "https://github.com/mkb2091/blockconvert/issues"
-    license: "GPL-3.0"
 
   - name: "Safing Special List: Secure DNS Resolvers"
     id: "17-DNS"
