@@ -45,10 +45,6 @@ categories:
     id: "BAD"
     description: "Miscellaneous services that are believed to be harmful to security or privacy, but their exact use is unknown, not categorized, or lists have mixed categories. See individual descriptions for more information."
 
-  - name: "Bad Stuff Collections (Mixed)"
-    id: "BADC"
-    description: "Miscellaneous services that are believed to be harmful to security or privacy. This category contains other collections of list that are likely to overblock."
-
   - name: "NSFW"
     id: "NSFW"
     description: "Services that are generally not accepted in work environments."
@@ -90,7 +86,7 @@ sources:
     contribute: "https://gitlab.com/ZeroDot1/CoinBlockerLists/issues"
     license: AGPLv3
 
-  - name: "Dan Pollock's List of Bad Stuff – someonewhocares.org"
+  - name: "Dan Pollock's List of Bad Stuff - someonewhocares.org"
     id: "SWC"
     description: "List of miscellaneous bad stuff by Dan Pollock."
     category: "BAD"
@@ -440,7 +436,7 @@ sources:
     contribute: "mailto:info@dshield.org"
     license: "CC-BY-NC-SA-2.5"
 
-  - name: "DNS-BH – Malware Domain Blocklist by RiskAnalytics"
+  - name: "DNS-BH - Malware Domain Blocklist by RiskAnalytics"
     id: "DNSBH-D"
     description: "Services that are suspicious and are likely to engage in malicious activity."
     category: "BAD"
@@ -452,7 +448,7 @@ sources:
     contribute: "http://www.malwaredomains.com/?page_id=13"
     license: "free for noncommercial use"
 
-  - name: "DNS-BH – Immortal Malware Domain Blocklist by RiskAnalytics"
+  - name: "DNS-BH - Immortal Malware Domain Blocklist by RiskAnalytics"
     id: "DNSBH-I"
     description: "Services that are suspicious and are likely to engage in malicious activity. This list contains domains that have lived for a long time."
     category: "BAD"
