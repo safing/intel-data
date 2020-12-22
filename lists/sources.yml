@@ -1,4 +1,4 @@
-version: "v2020.11.18"
+version: "v2020.12.22"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
@@ -283,7 +283,7 @@ sources:
   - name: "Tiuxo's Pornography List (Japan)"
     id: "TX-PRN"
     description: "Tiuxo's collection of pornography websites, with a local focus on Japan"
-    category: "ADS"
+    category: "PORN"
     urls:
     - url: "https://raw.githubusercontent.com/tiuxo/hosts/master/porn"
       type: "Domain"
@@ -292,7 +292,7 @@ sources:
     contribute: "https://github.com/tiuxo/hosts/issues"
     license: "CC-BY-4.0"
 
-  - name: "Safing Ads"
+  - name: "Safing Ads List"
     id: "17-ADS"
     description: "Services that serve ads and track their audiences."
     category: "ADS"
@@ -304,7 +304,7 @@ sources:
     contribute: "https://github.com/safing/intel-data"
     license: "CC-BY-SA-4.0"
 
-  - name: "Safing Analytics"
+  - name: "Safing Analytics List"
     id: "17-ALYTC"
     description: "Services that provide visitor analysis/profiling."
     category: "ALYTC"
@@ -316,7 +316,7 @@ sources:
     contribute: "https://github.com/safing/intel-data"
     license: "CC-BY-SA-4.0"
 
-  - name: "Safing Fraud"
+  - name: "Safing Fraud List"
     id: "17-FRD"
     description: "Services that scam people."
     category: "FRAUD"
@@ -328,7 +328,7 @@ sources:
     contribute: "https://github.com/safing/intel-data"
     license: "CC-BY-SA-4.0"
 
-  - name: "Safing Malware"
+  - name: "Safing Malware List"
     id: "17-MAL"
     description: "Services that are (ab)used for attacking devices through technical means."
     category: "MAL"
@@ -340,7 +340,7 @@ sources:
     contribute: "https://github.com/safing/intel-data"
     license: "CC-BY-SA-4.0"
 
-  - name: "Safing Phishing"
+  - name: "Safing Phishing List"
     id: "17-PSH"
     description: "Services that engage in credential fishing."
     category: "PHISH"
@@ -352,7 +352,7 @@ sources:
     contribute: "https://github.com/safing/intel-data"
     license: "CC-BY-SA-4.0"
 
-  - name: "Safing Telemetry"
+  - name: "Safing Telemetry List"
     id: "17-TEL"
     description: "Services that collect application telemetry."
     category: "TELEM"
@@ -364,7 +364,7 @@ sources:
     contribute: "https://github.com/safing/intel-data"
     license: "CC-BY-SA-4.0"
 
-  - name: "Safing Tracking"
+  - name: "Safing Tracking List"
     id: "17-TRACO"
     description: "Services that are believed to serve ads or track users, but their exact use is unknown or not categorized."
     category: "TRACO"
