@@ -411,41 +411,9 @@ sources:
     website: "https://feodotracker.abuse.ch/"
     license: "CC0-1.0"
 
-  - name: "DShield.org Suspicious Domain List (High)"
-    id: "DS-SDH"
-    description: "Services that are suspicious and are very likely to engage in malicious activity."
-    category: "BAD"
-    urls:
-    - url: "https://dshield.org/feeds/suspiciousdomains_High.txt"
-      type: "Domain"
-      parser: "domainlist-firstcolumn"
-    website: "https://dshield.org/suspicious_domains.html"
-    contribute: "mailto:info@dshield.org"
-    license: "CC-BY-NC-SA-2.5"
-
-  - name: "DShield.org Suspicious Domain List (Medium)"
-    id: "DS-SDM"
-    description: "Services that are suspicious and are likely to engage in malicious activity."
-    category: "BAD"
-    urls:
-    - url: "https://dshield.org/feeds/suspiciousdomains_Medium.txt"
-      type: "Domain"
-      parser: "domainlist-firstcolumn"
-    website: "https://dshield.org/suspicious_domains.html"
-    contribute: "mailto:info@dshield.org"
-    license: "CC-BY-NC-SA-2.5"
-
-  - name: "DShield.org Suspicious Domain List (Low)"
-    id: "DS-SDL"
-    description: "Services that are suspicious and are somewhat likely to engage in malicious activity."
-    category: "BAD"
-    urls:
-    - url: "https://dshield.org/feeds/suspiciousdomains_Low.txt"
-      type: "Domain"
-      parser: "domainlist-firstcolumn"
-    website: "https://dshield.org/suspicious_domains.html"
-    contribute: "mailto:info@dshield.org"
-    license: "CC-BY-NC-SA-2.5"
+  # DShield.org Suspicious Domain List
+  # Currently suspended.
+  # See https://dshield.org/suspicious_domains.html
 
   - name: "DNS-BH - Malware Domain Blocklist by RiskAnalytics"
     id: "DNSBH-D"
