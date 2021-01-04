@@ -398,7 +398,18 @@ sources:
       parser: "hostsfile"
     website: "https://urlhaus.abuse.ch/"
     contribute: "https://urlhaus.abuse.ch/api/"
-    license: "CC0"
+    license: "CC0-1.0"
+
+  - name: "Abuse.ch FEODO Blocklist"
+    id: "AC-FE"
+    description: "Blocklist of IP addresses that are associated with Dridex, Heodo (aka Emotet) and TrickBot botnet C&Cs"
+    category: "MAL"
+    urls:
+    - url: "https://feodotracker.abuse.ch/downloads/ipblocklist.txt"
+      type: "IPv4"
+      parser: "hostsfile"
+    website: "https://feodotracker.abuse.ch/"
+    license: "CC0-1.0"
 
   - name: "DShield.org Suspicious Domain List (High)"
     id: "DS-SDH"
@@ -517,3 +528,27 @@ sources:
     website: "https://github.com/danielcuthbert/trackers"
     contribute: "https://github.com/danielcuthbert/trackers"
     license: "CC0-1.0"
+
+  - name: "IPsum Threat Intelligence Feed"
+    id: "IPS"
+    description: "Threat intelligence feed based on 30+ different publicly available lists of suspicious and/or malicious IP addresses"
+    category: "BAD"
+    urls:
+    - url: "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt"
+      type: "IPv4"
+      parser: "hostsfile"
+    website: "https://github.com/stamparm/ipsum"
+    contribute: "https://github.com/stamparm/ipsum/issues"
+    license: "Unlicense"
+
+  - name: "AdGuardDNS List by ray"
+    id: "AGD"
+    description: "AdGuard DNS is a simplified filter list made for DNS-level blocking. It includes various lists from AdGuard."
+    category: "BAD"
+    urls:
+    - url: "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardDNS.txt"
+      type: "Domain"
+      parser: "hostsfile"
+    website: "https://github.com/r-a-y/mobile-hosts"
+    contribute: "https://github.com/r-a-y/mobile-hosts/issues"
+    license: "GPL-3.0"
