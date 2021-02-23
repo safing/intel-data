@@ -485,17 +485,18 @@ sources:
     contribute: "https://ceadd.ca/blockyoux/"
     license: "BlockYouX is free."
 
-  - name: "Tracker List by Daniel Cuthbert"
-    id: "DCT"
-    description: "List of trackers researched by Daniel Cuthbert"
-    category: "ADS"
-    urls:
-    - url: "https://raw.githubusercontent.com/danielcuthbert/trackers/master/trackers.txt"
-      type: "Domain"
-      parser: "domainlist"
-    website: "https://github.com/danielcuthbert/trackers"
-    contribute: "https://github.com/danielcuthbert/trackers"
-    license: "CC0-1.0"
+  # Deactivated on 23.02.2021 due to overblocking and unhandled issues.
+  # - name: "Tracker List by Daniel Cuthbert"
+  #   id: "DCT"
+  #   description: "List of trackers researched by Daniel Cuthbert"
+  #   category: "ADS"
+  #   urls:
+  #   - url: "https://raw.githubusercontent.com/danielcuthbert/trackers/master/trackers.txt"
+  #     type: "Domain"
+  #     parser: "domainlist"
+  #   website: "https://github.com/danielcuthbert/trackers"
+  #   contribute: "https://github.com/danielcuthbert/trackers"
+  #   license: "CC0-1.0"
 
   - name: "IPsum Threat Intelligence Feed"
     id: "IPS"
