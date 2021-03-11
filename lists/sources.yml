@@ -62,7 +62,7 @@ categories:
     parent: "NSFW"
 
   - name: "Experiments"
-    id: "EXP"
+    id: "EXPERIMENTS"
     description: "Experimental lists of various categories that are being evaluated and might easily break websites and applications. Feedback on these lists is very welcome."
 
 sources:
@@ -480,7 +480,7 @@ sources:
   - name: "BlockYouX"
     id: "BYX"
     description: "Privacy Focused Block List by ceadd.ca."
-    category: "EXP"
+    category: "EXPERIMENTS"
     urls:
     - url: "https://ceadd.ca/blockyoux.txt"
       type: "Domain"
@@ -492,7 +492,7 @@ sources:
   - name: "Tracker List by Daniel Cuthbert"
     id: "DCT"
     description: "List of trackers researched by Daniel Cuthbert"
-    category: "EXP"
+    category: "EXPERIMENTS"
     urls:
     - url: "https://raw.githubusercontent.com/danielcuthbert/trackers/master/trackers.txt"
       type: "Domain"
