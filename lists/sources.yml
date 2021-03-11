@@ -1,4 +1,4 @@
-version: "v2021.02.23"
+version: "v2021.03.11"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
@@ -60,6 +60,10 @@ categories:
     id: "GAMBL"
     description: "Services that provide pornographic content in addition to other content that is safe for work."
     parent: "NSFW"
+
+  - name: "Experiments"
+    id: "EXPERIMENTS"
+    description: "Experimental lists of various categories that are being evaluated and might easily break websites and applications. Feedback on these lists is very welcome."
 
 sources:
   - name: "AdAway Ads List"
@@ -476,7 +480,7 @@ sources:
   - name: "BlockYouX"
     id: "BYX"
     description: "Privacy Focused Block List by ceadd.ca."
-    category: "ADS"
+    category: "EXPERIMENTS"
     urls:
     - url: "https://ceadd.ca/blockyoux.txt"
       type: "Domain"
@@ -485,18 +489,17 @@ sources:
     contribute: "https://ceadd.ca/blockyoux/"
     license: "BlockYouX is free."
 
-  # Deactivated on 23.02.2021 due to overblocking and unhandled issues.
-  # - name: "Tracker List by Daniel Cuthbert"
-  #   id: "DCT"
-  #   description: "List of trackers researched by Daniel Cuthbert"
-  #   category: "ADS"
-  #   urls:
-  #   - url: "https://raw.githubusercontent.com/danielcuthbert/trackers/master/trackers.txt"
-  #     type: "Domain"
-  #     parser: "domainlist"
-  #   website: "https://github.com/danielcuthbert/trackers"
-  #   contribute: "https://github.com/danielcuthbert/trackers"
-  #   license: "CC0-1.0"
+  - name: "Tracker List by Daniel Cuthbert"
+    id: "DCT"
+    description: "List of trackers researched by Daniel Cuthbert"
+    category: "EXPERIMENTS"
+    urls:
+    - url: "https://raw.githubusercontent.com/danielcuthbert/trackers/master/trackers.txt"
+      type: "Domain"
+      parser: "domainlist"
+    website: "https://github.com/danielcuthbert/trackers"
+    contribute: "https://github.com/danielcuthbert/trackers"
+    license: "CC0-1.0"
 
   - name: "IPsum Threat Intelligence Feed"
     id: "IPS"
