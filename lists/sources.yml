@@ -1,3 +1,6 @@
+UH-D, DNSBH-D, DNSBH-I, IPS
+
+
 version: "v2021.03.11"
 schemaVersion: "v2.0.0"
 categories:
@@ -395,7 +398,7 @@ sources:
   - name: "Abuse.ch URLHaus Domains"
     id: "UH-D"
     description: "Services that are malicious and deceptive, possibly hacked and abused. Possibility of false positives."
-    category: "BAD"
+    category: "MAL"
     urls:
     - url: "https://urlhaus.abuse.ch/downloads/hostfile/"
       type: "Domain"
@@ -422,7 +425,7 @@ sources:
   - name: "DNS-BH - Malware Domain Blocklist by RiskAnalytics"
     id: "DNSBH-D"
     description: "Services that are suspicious and are likely to engage in malicious activity."
-    category: "BAD"
+    category: "MAL"
     urls:
     - url: "http://mirror1.malwaredomains.com/files/domains.txt"
       type: "Domain"
@@ -434,7 +437,7 @@ sources:
   - name: "DNS-BH - Immortal Malware Domain Blocklist by RiskAnalytics"
     id: "DNSBH-I"
     description: "Services that are suspicious and are likely to engage in malicious activity. This list contains domains that have lived for a long time."
-    category: "BAD"
+    category: "MAL"
     urls:
     - url: "http://mirror1.malwaredomains.com/files/immortal_domains.txt"
       type: "Domain"
@@ -504,7 +507,7 @@ sources:
   - name: "IPsum Threat Intelligence Feed"
     id: "IPS"
     description: "Threat intelligence feed based on 30+ different publicly available lists of suspicious and/or malicious IP addresses"
-    category: "BAD"
+    category: "MAL"
     urls:
     - url: "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt"
       type: "IPv4"
