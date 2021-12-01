@@ -81,7 +81,7 @@ sources:
   - name: "CoinBlocker"
     id: "CB-MW"
     description: "Collection of Domain used by cryptominers"
-    category: "MAL"
+    category: "EXPERIMENTS"
     urls:
     - url: "https://zerodot1.gitlab.io/CoinBlockerLists/list.txt"
       type: "Domain"
