@@ -559,7 +559,7 @@ sources:
       parser: "hostsfile"
     website: "https://github.com/ScottHelme/revocation-endpoints"
     contribute: "https://github.com/ScottHelme/revocation-endpoints/issues"
-    license: "Public data."
+    license: "CC0-1.0"
 
   - name: "OCSP endpoints by Scott Helme"
     id: "SH-OCSP"
@@ -571,4 +571,4 @@ sources:
       parser: "hostsfile"
     website: "https://github.com/ScottHelme/revocation-endpoints"
     contribute: "https://github.com/ScottHelme/revocation-endpoints/issues"
-    license: "Public data."
+    license: "CC0-1.0"
