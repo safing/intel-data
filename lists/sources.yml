@@ -1,7 +1,4 @@
-UH-D, DNSBH-D, DNSBH-I, IPS
-
-
-version: "v2021.03.11"
+version: "v2021.12.1"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
