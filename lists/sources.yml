@@ -35,10 +35,6 @@ categories:
     id: "PHISH"
     description: "Services that engage in password fishing."
     parent: "DECEP"
-  - name: "Fake News"
-    id: "FAKEN"
-    description: "Services that deliberately provide wrong information."
-    parent: "DECEP"
   - name: "Fraud"
     id: "FRAUD"
     description: "Services that scam people."
@@ -162,18 +158,6 @@ sources:
     website: "https://www.malwaredomainlist.com/"
     contribute: "https://www.malwaredomainlist.com/contact.php"
     license: "Our list can be used for free by anyone. Feel free to use it."
-
-  - name: "Mark Allen's Fake News"
-    id: "MA-FN"
-    description: "An in-progress collection of fake news outlets."
-    category: "FAKEN"
-    urls:
-    - url: "https://raw.githubusercontent.com/marktron/fakenews/master/fakenews"
-      type: "Domain"
-      parser: "hostsfile"
-    website: "https://github.com/marktron/fakenews"
-    contribute: "https://github.com/marktron/fakenews/issues"
-    license: MIT
 
   - name: "MVPS Hosts File"
     id: "MVPS"
