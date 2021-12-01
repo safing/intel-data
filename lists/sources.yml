@@ -551,3 +551,27 @@ sources:
     website: "https://oisd.nl/"
     contribute: "https://oisd.nl/reportfalsepositive"
     license: "Free to use."
+
+  - name: "CRL endpoints by Scott Helme"
+    id: "SH-CRL"
+    description: "List of Certificate Revocation List endpoints, collected by Scott Helme. This will block checks if a (TLS/HTTPS) certificate is valid, which experts like Scott Helme argue is pointless. Improves privacy and only maybe decreases security."
+    category: "EXPERIMENTS"
+    urls:
+    - url: "https://raw.githubusercontent.com/ScottHelme/revocation-endpoints/master/crl.txt"
+      type: "Domain"
+      parser: "hostsfile"
+    website: "https://github.com/ScottHelme/revocation-endpoints"
+    contribute: "https://github.com/ScottHelme/revocation-endpoints/issues"
+    license: "Public data."
+
+  - name: "OCSP endpoints by Scott Helme"
+    id: "SH-OCSP"
+    description: "List of Certificate Status endpoints, collected by Scott Helme. This will block checks if a (TLS/HTTPS) certificate is valid, which experts like Scott Helme argue is pointless. Improves privacy and only maybe decreases security."
+    category: "EXPERIMENTS"
+    urls:
+    - url: "https://raw.githubusercontent.com/ScottHelme/revocation-endpoints/master/ocsp.txt"
+      type: "Domain"
+      parser: "hostsfile"
+    website: "https://github.com/ScottHelme/revocation-endpoints"
+    contribute: "https://github.com/ScottHelme/revocation-endpoints/issues"
+    license: "Public data."
