@@ -44,9 +44,9 @@ categories:
     description: "Services that scam people."
     parent: "DECEP"
 
-  - name: "Bad Stuff (Mixed)"
+  - name: "Mixed Ads/Trackers/Malware"
     id: "BAD"
-    description: "Miscellaneous services that are believed to be harmful to security or privacy, but their exact use is unknown, not categorized, or lists have mixed categories. See individual descriptions for more information."
+    description: "Services that are harmful to security or privacy. These lists mix different categories which makes it hard to categorize them. See individual descriptions for more information."
 
   - name: "NSFW"
     id: "NSFW"
