@@ -1,0 +1,7 @@
+artifacts:
+  - url: https://raw.githubusercontent.com/safing/intel-data/master/spn/main-intel.json
+    scope: intel/spn
+    name: main-intel.json
+  - url: https://raw.githubusercontent.com/safing/intel-data/master/portmaster/notifications.json
+    scope: intel/portmaster
+    name: notifications.json
