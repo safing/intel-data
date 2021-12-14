@@ -537,7 +537,7 @@ sources:
     contribute: "https://oisd.nl/reportfalsepositive"
     license: "Free to use."
 
-  - name: "OISD.nl Blocklist"
+  - name: "OISD.nl NSFW Blocklist"
     id: "OISD-NFSW"
     description: "A mixed NSFW blocklist by OISD."
     category: "NSFWM"
