@@ -395,30 +395,6 @@ sources:
   # Currently suspended.
   # See https://dshield.org/suspicious_domains.html
 
-  - name: "DNS-BH - Malware Domain Blocklist by RiskAnalytics"
-    id: "DNSBH-D"
-    description: "Services that are suspicious and are likely to engage in malicious activity."
-    category: "MAL"
-    urls:
-    - url: "http://mirror1.malwaredomains.com/files/domains.txt"
-      type: "Domain"
-      parser: "domainlist-firstcolumn"
-    website: "http://www.malwaredomains.com/"
-    contribute: "http://www.malwaredomains.com/?page_id=13"
-    license: "free for noncommercial use"
-
-  - name: "DNS-BH - Immortal Malware Domain Blocklist by RiskAnalytics"
-    id: "DNSBH-I"
-    description: "Services that are suspicious and are likely to engage in malicious activity. This list contains domains that have lived for a long time."
-    category: "MAL"
-    urls:
-    - url: "http://mirror1.malwaredomains.com/files/immortal_domains.txt"
-      type: "Domain"
-      parser: "domainlist"
-    website: "http://www.malwaredomains.com/"
-    contribute: "http://www.malwaredomains.com/?page_id=13"
-    license: "free for noncommercial use"
-
   - name: "Safing Special List: Secure DNS Resolvers"
     id: "17-DNS"
     description: "Services that provide secure DNS resolvers that could be used to bypass the Portmaster."
