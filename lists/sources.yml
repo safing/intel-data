@@ -371,7 +371,7 @@ sources:
   - name: "Windows Spy Blocker"
     id: "WSP"
     description: "Services that Windows uses for telemetry and related activity."
-    category: "TELEM"
+    category: "EXPERIMENTS"
     urls:
     - url: "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt"
       type: "Domain"
@@ -514,7 +514,7 @@ sources:
     license: "GPL-3.0"
 
   - name: "OISD.nl Blocklist"
-    id: "OISD"
+    id: "OISD-BAD"
     description: "Wide collection of domains with a focus on not breaking any websites."
     category: "BAD"
     urls:
@@ -526,7 +526,7 @@ sources:
     license: "Free to use."
 
   - name: "OISD.nl Extra Blocklist"
-    id: "OISD"
+    id: "OISD-EXTRA"
     description: "An addition to the main OISD.nl blocklist, with the possibility of breaking websites."
     category: "EXPERIMENTS"
     urls:
@@ -537,8 +537,8 @@ sources:
     contribute: "https://oisd.nl/reportfalsepositive"
     license: "Free to use."
 
-  - name: "OISD.nl NSFW Blocklist"
-    id: "OISD"
+  - name: "OISD.nl Blocklist"
+    id: "OISD-NFSW"
     description: "A mixed NSFW blocklist by OISD."
     category: "NSFWM"
     urls:
