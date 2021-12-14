@@ -514,7 +514,7 @@ sources:
     license: "GPL-3.0"
 
   - name: "OISD.nl Blocklist"
-    id: "OISD-BAD"
+    id: "OISD"
     description: "Wide collection of domains with a focus on not breaking any websites."
     category: "BAD"
     urls:
