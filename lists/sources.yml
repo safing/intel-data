@@ -1,4 +1,4 @@
-version: "v2021.03.11"
+version: "v2021.12.1"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
@@ -32,18 +32,14 @@ categories:
     id: "PHISH"
     description: "Services that engage in password fishing."
     parent: "DECEP"
-  - name: "Fake News"
-    id: "FAKEN"
-    description: "Services that deliberately provide wrong information."
-    parent: "DECEP"
   - name: "Fraud"
     id: "FRAUD"
     description: "Services that scam people."
     parent: "DECEP"
 
-  - name: "Bad Stuff (Mixed)"
+  - name: "Mixed Ads/Trackers/Malware"
     id: "BAD"
-    description: "Miscellaneous services that are believed to be harmful to security or privacy, but their exact use is unknown, not categorized, or lists have mixed categories. See individual descriptions for more information."
+    description: "Services that are harmful to security or privacy. These lists mix different categories which makes it hard to categorize them. See individual descriptions for more information."
 
   - name: "NSFW"
     id: "NSFW"
@@ -59,6 +55,10 @@ categories:
   - name: "Gambling"
     id: "GAMBL"
     description: "Services that provide pornographic content in addition to other content that is safe for work."
+    parent: "NSFW"
+  - name: "Mixed"
+    id: "NSFWM"
+    description: "Services that are generally not accepted in work environments."
     parent: "NSFW"
 
   - name: "Experiments"
@@ -81,7 +81,7 @@ sources:
   - name: "CoinBlocker"
     id: "CB-MW"
     description: "Collection of Domain used by cryptominers"
-    category: "MAL"
+    category: "EXPERIMENTS"
     urls:
     - url: "https://zerodot1.gitlab.io/CoinBlockerLists/list.txt"
       type: "Domain"
@@ -159,18 +159,6 @@ sources:
     website: "https://www.malwaredomainlist.com/"
     contribute: "https://www.malwaredomainlist.com/contact.php"
     license: "Our list can be used for free by anyone. Feel free to use it."
-
-  - name: "Mark Allen's Fake News"
-    id: "MA-FN"
-    description: "An in-progress collection of fake news outlets."
-    category: "FAKEN"
-    urls:
-    - url: "https://raw.githubusercontent.com/marktron/fakenews/master/fakenews"
-      type: "Domain"
-      parser: "hostsfile"
-    website: "https://github.com/marktron/fakenews"
-    contribute: "https://github.com/marktron/fakenews/issues"
-    license: MIT
 
   - name: "MVPS Hosts File"
     id: "MVPS"
@@ -395,7 +383,7 @@ sources:
   - name: "Abuse.ch URLHaus Domains"
     id: "UH-D"
     description: "Services that are malicious and deceptive, possibly hacked and abused. Possibility of false positives."
-    category: "BAD"
+    category: "MAL"
     urls:
     - url: "https://urlhaus.abuse.ch/downloads/hostfile/"
       type: "Domain"
@@ -422,7 +410,7 @@ sources:
   - name: "DNS-BH - Malware Domain Blocklist by RiskAnalytics"
     id: "DNSBH-D"
     description: "Services that are suspicious and are likely to engage in malicious activity."
-    category: "BAD"
+    category: "MAL"
     urls:
     - url: "http://mirror1.malwaredomains.com/files/domains.txt"
       type: "Domain"
@@ -434,7 +422,7 @@ sources:
   - name: "DNS-BH - Immortal Malware Domain Blocklist by RiskAnalytics"
     id: "DNSBH-I"
     description: "Services that are suspicious and are likely to engage in malicious activity. This list contains domains that have lived for a long time."
-    category: "BAD"
+    category: "MAL"
     urls:
     - url: "http://mirror1.malwaredomains.com/files/immortal_domains.txt"
       type: "Domain"
@@ -504,7 +492,7 @@ sources:
   - name: "IPsum Threat Intelligence Feed"
     id: "IPS"
     description: "Threat intelligence feed based on 30+ different publicly available lists of suspicious and/or malicious IP addresses"
-    category: "BAD"
+    category: "MAL"
     urls:
     - url: "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt"
       type: "IPv4"
@@ -524,3 +512,63 @@ sources:
     website: "https://github.com/r-a-y/mobile-hosts"
     contribute: "https://github.com/r-a-y/mobile-hosts/issues"
     license: "GPL-3.0"
+
+  - name: "OISD.nl Blocklist"
+    id: "OISD"
+    description: "Wide collection of domains with a focus on not breaking any websites."
+    category: "BAD"
+    urls:
+    - url: "https://dblw.oisd.nl/"
+      type: "Domain"
+      parser: "domainlist"
+    website: "https://oisd.nl/"
+    contribute: "https://oisd.nl/reportfalsepositive"
+    license: "Free to use."
+
+  - name: "OISD.nl Extra Blocklist"
+    id: "OISD"
+    description: "An addition to the main OISD.nl blocklist, with the possibility of breaking websites."
+    category: "EXPERIMENTS"
+    urls:
+    - url: "https://dblw.oisd.nl/extra/"
+      type: "Domain"
+      parser: "domainlist"
+    website: "https://oisd.nl/"
+    contribute: "https://oisd.nl/reportfalsepositive"
+    license: "Free to use."
+
+  - name: "OISD.nl NSFW Blocklist"
+    id: "OISD"
+    description: "A mixed NSFW blocklist by OISD."
+    category: "NSFWM"
+    urls:
+    - url: "https://dblw.oisd.nl/nsfw/"
+      type: "Domain"
+      parser: "domainlist"
+    website: "https://oisd.nl/"
+    contribute: "https://oisd.nl/reportfalsepositive"
+    license: "Free to use."
+
+  - name: "CRL endpoints by Scott Helme"
+    id: "SH-CRL"
+    description: "List of Certificate Revocation List endpoints, collected by Scott Helme. This will block checks if a (TLS/HTTPS) certificate is valid, which experts like Scott Helme argue is pointless. Improves privacy and only maybe decreases security."
+    category: "EXPERIMENTS"
+    urls:
+    - url: "https://raw.githubusercontent.com/ScottHelme/revocation-endpoints/master/crl.txt"
+      type: "Domain"
+      parser: "hostsfile"
+    website: "https://github.com/ScottHelme/revocation-endpoints"
+    contribute: "https://github.com/ScottHelme/revocation-endpoints/issues"
+    license: "CC0-1.0"
+
+  - name: "OCSP endpoints by Scott Helme"
+    id: "SH-OCSP"
+    description: "List of Certificate Status endpoints, collected by Scott Helme. This will block checks if a (TLS/HTTPS) certificate is valid, which experts like Scott Helme argue is pointless. Improves privacy and only maybe decreases security."
+    category: "EXPERIMENTS"
+    urls:
+    - url: "https://raw.githubusercontent.com/ScottHelme/revocation-endpoints/master/ocsp.txt"
+      type: "Domain"
+      parser: "hostsfile"
+    website: "https://github.com/ScottHelme/revocation-endpoints"
+    contribute: "https://github.com/ScottHelme/revocation-endpoints/issues"
+    license: "CC0-1.0"
