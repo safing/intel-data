@@ -188,18 +188,6 @@ sources:
     contribute: "https://pgl.yoyo.org/as/#submit"
     license: "?"
 
-  - name: "Pornhosts - Niclas' Pornography List"
-    id: "NI-PH"
-    description: "Niclas' Pornhosts is an endeavour to find all porn Domain."
-    category: "PORN"
-    urls:
-    - url: "https://raw.githubusercontent.com/Clefspeare13/pornhosts/master/0.0.0.0/hosts"
-      type: "Domain"
-      parser: "hostsfile"
-    website: "https://github.com/Clefspeare13/pornhosts"
-    contribute: "https://github.com/Clefspeare13/pornhosts/issues"
-    license: MIT
-
   - name: "Sinfonietta's Gambling List"
     id: "SFA-G"
     description: "Sinfonietta's collection of gambling websites."
