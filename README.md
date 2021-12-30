@@ -62,7 +62,7 @@ some-tracking-domain.com  # short description
 
 **Ordering of list entries**
 
-If you plan to add new domains to one ore more of the filterlists, please make sure to add them to the end of the file. This will allow users to reason about how old list entries are and if the may be obsolete.
+If you plan to add new domains to one or more of the filterlists, please make sure to add them to the end of the file. This will allow users to reason about how old list entries are and if the may be obsolete.
 
 If you took time and verified some of the top (and oldest) list entries, please move them to the bottom of the file if they are still relevant.
 
