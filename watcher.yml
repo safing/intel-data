@@ -6,4 +6,4 @@ artifacts:
   - url: https://raw.githubusercontent.com/safing/intel-data/master/portmaster/notifications.yaml
     scope: intel/portmaster
     name: notifications.yaml
-    validator: yaml-array
+    validator: yaml-object
