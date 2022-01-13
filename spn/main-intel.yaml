@@ -1,0 +1,29 @@
+---
+BootstrapHubs:
+- tcp://[2a01:4f8:172:3753::2]:17#Zwtb8EKMatnMRkW1VaLh8CPV3QswD9iuRU4Sda8uLezUkC
+- tcp://[2a01:4f9:2a:d48::2]:17#Zwkwujs345P4ZygNZcEafawTqfZieCBVogQZ3xZPWiu7BU
+- tcp://138.201.140.70:17#Zwtb8EKMatnMRkW1VaLh8CPV3QswD9iuRU4Sda8uLezUkC
+- tcp://95.216.13.61:17#Zwkwujs345P4ZygNZcEafawTqfZieCBVogQZ3xZPWiu7BU
+TrustedHubs:
+- ZwhpYS1jWzXvPYKFhJqh1ZD3bKquLLoSoJ6RjeshmcXoFx
+- ZwjdCfo2efukhayuRkDLGFZWECSSuAaq85A85YKHZnFDu7
+- ZwkAKBoyEd3PkE5RGDNmghahzHiBiTZA7Mg3XH7X3HjS39
+- ZwkLShvVYvQFGmpY1MNhSSPXCktojywMVtv2N86mFbNH4w
+- Zwkwujs345P4ZygNZcEafawTqfZieCBVogQZ3xZPWiu7BU
+- ZwnVWRdEqhwt8jAGTPzj5gVtdkRnZzHt5uKAjvm9BDUxXd
+- Zwpg5FoXYVYidzgbdvDyvBBcrArmmHvK9nH3v7KDHiywtt
+- ZwpKzLDESbzYszvGdKVaDA8Pp4NkRa4VGNchDEdNYaH7WD
+- Zwpy5hbrQkKznJwbUmn9WpJwGkpWD9VqE2pi9yfMDQM7PK
+- ZwqANMrhcyJZb8cRMEd3FdPcXY7ZbvviPPfTUQpLNau12J
+- ZwqcLRbp8Ek8n9qa3GeVUf7Voarzyjd7VKtsb42TjEUgmq
+- ZwqVRUxTriN6LZ1cDaRBGSMZKrEJ2HF1TERRQ91h1QMRyY
+- ZwrNGbpviRdm4ZKLrYWuC2j97CtH3aSt9zefy5Xq9rUsqD
+- Zwtb8EKMatnMRkW1VaLh8CPV3QswD9iuRU4Sda8uLezUkC
+- ZwtVCqAxPzDaW8P8gGp9wKnGREV4WKKumnBYjGDAhXpyy2
+- ZwubcqhMUyBgv2gKcvUfsfFMDcjejDQF5762Ju5ofPxKJN
+- ZwvLgTnCrut3eEMzyymRQdp8XEQuBZyqbFe2zurvNmGxk2
+- ZwvTyGpjEELMCWMgyt8GELiBGP4vRyZ56mKy3XMmLGfYCo
+- ZwvyDLz8221fcSBw6GKZNDnwEn4YmE9m7JPieLUVe7iGR9
+AdviseOnlyTrustedHubs: false
+AdviseOnlyTrustedHomeHubs: true
+AdviseOnlyTrustedDestinationHubs: true
