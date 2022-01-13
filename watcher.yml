@@ -2,6 +2,8 @@ artifacts:
   - url: https://raw.githubusercontent.com/safing/intel-data/master/spn/main-intel.yaml
     scope: intel/spn
     name: main-intel.yaml
+    validator: yaml-object
   - url: https://raw.githubusercontent.com/safing/intel-data/master/portmaster/notifications.yaml
     scope: intel/portmaster
     name: notifications.yaml
+    validator: yaml-array
