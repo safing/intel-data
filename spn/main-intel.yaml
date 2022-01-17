@@ -21,3 +21,24 @@ TrustedHubs:
 AdviseOnlyTrustedHubs: false
 AdviseOnlyTrustedHomeHubs: true
 AdviseOnlyTrustedDestinationHubs: true
+InfoOverrides:
+  ZwhpYS1jWzXvPYKFhJqh1ZD3bKquLLoSoJ6RjeshmcXoFx: # voria
+    CountryCode: US
+    Coordinates: # Ashburn, VA
+      Latitude: 39.04
+      Longitude: -77.48
+  ZwjdCfo2efukhayuRkDLGFZWECSSuAaq85A85YKHZnFDu7: # sane
+    CountryCode: US
+    Coordinates: # Santa Clara, CA
+      Latitude: 37.21
+      Longitude: -121.58
+  ZwpKzLDESbzYszvGdKVaDA8Pp4NkRa4VGNchDEdNYaH7WD: # domgra
+    CountryCode: US
+    Coordinates: # Dallas, TX
+      Latitude: 32.47
+      Longitude: -96.48
+  Zwvz9S6uyxn4ww1JGqJiisGMDmH2hz6mhwutmJXvTtwQww: # cidai
+    CountryCode: US
+    Coordinates: # San Francisco, CA
+      Latitude: 37.47
+      Longitude: -122.25
