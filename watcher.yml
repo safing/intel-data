@@ -3,7 +3,11 @@ artifacts:
     scope: intel/spn
     name: main-intel.yaml
     validator: yaml-object
+    min-backoff: 10m
+    max-backoff: 1h
   - url: https://raw.githubusercontent.com/safing/intel-data/master/portmaster/notifications.yaml
     scope: intel/portmaster
     name: notifications.yaml
     validator: yaml-object
+    min-backoff: 10m
+    max-backoff: 1h
