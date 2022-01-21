@@ -27,21 +27,3 @@ InfoOverrides:
       Latitude: 39.04
       Longitude: -77.48
       AccuracyRadius: 20
-  ZwjdCfo2efukhayuRkDLGFZWECSSuAaq85A85YKHZnFDu7: # sane
-    CountryCode: US
-    Coordinates: # Santa Clara, CA
-      Latitude: 37.11 # Slightly adjusted from 37.21.
-      Longitude: -121.58
-      AccuracyRadius: 20
-  ZwpKzLDESbzYszvGdKVaDA8Pp4NkRa4VGNchDEdNYaH7WD: # domgra
-    CountryCode: US
-    Coordinates: # Dallas, TX
-      Latitude: 32.47
-      Longitude: -96.48
-      AccuracyRadius: 20
-  Zwvz9S6uyxn4ww1JGqJiisGMDmH2hz6mhwutmJXvTtwQww: # cidai
-    CountryCode: US
-    Coordinates: # San Francisco, CA
-      Latitude: 37.77 # Slightly adjusted from 37.47.
-      Longitude: -122.25
-      AccuracyRadius: 20
