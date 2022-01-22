@@ -17,6 +17,17 @@ TrustedHubs:
 - ZwvyDLz8221fcSBw6GKZNDnwEn4YmE9m7JPieLUVe7iGR9 # calla [CA]
 - Zwvz9S6uyxn4ww1JGqJiisGMDmH2hz6mhwutmJXvTtwQww # cidai [US]
 - ZwxJvZDZH18RUEQ3oFcR5uCqeXJaqkoi9P5Sj1aZ62HPin # nutis [DE]
+DiscontinuedHubs:
+- ZwjdCfo2efukhayuRkDLGFZWECSSuAaq85A85YKHZnFDu7 # sane
+- ZwnVWRdEqhwt8jAGTPzj5gVtdkRnZzHt5uKAjvm9BDUxXd # bacri
+- ZwpKzLDESbzYszvGdKVaDA8Pp4NkRa4VGNchDEdNYaH7WD # domgra
+- ZwqcLRbp8Ek8n9qa3GeVUf7Voarzyjd7VKtsb42TjEUgmq # crait
+- ZwqVRUxTriN6LZ1cDaRBGSMZKrEJ2HF1TERRQ91h1QMRyY # krothi
+- ZwrNGbpviRdm4ZKLrYWuC2j97CtH3aSt9zefy5Xq9rUsqD # eadu
+- ZwtVCqAxPzDaW8P8gGp9wKnGREV4WKKumnBYjGDAhXpyy2 # hela
+- ZwubcqhMUyBgv2gKcvUfsfFMDcjejDQF5762Ju5ofPxKJN # cantonica
+- ZwvLgTnCrut3eEMzyymRQdp8XEQuBZyqbFe2zurvNmGxk2 # muune
+- ZwvTyGpjEELMCWMgyt8GELiBGP4vRyZ56mKy3XMmLGfYCo # ronbar
 AdviseOnlyTrustedHubs: false
 AdviseOnlyTrustedHomeHubs: true
 AdviseOnlyTrustedDestinationHubs: true
