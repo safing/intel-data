@@ -1,4 +1,4 @@
-version: "v2021.12.1"
+version: "v2022.2.3"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
@@ -147,18 +147,6 @@ sources:
     website: "https://bigdargon.github.io/hostsVN/"
     contribute: "https://github.com/bigdargon/hostsVN/issues"
     license: "MIT"
-
-  - name: "Malware Domain List .com"
-    id: "MDLC"
-    description: "Malware Domain List is a non-commercial community project."
-    category: "MAL"
-    urls:
-    - url: "https://www.malwaredomainlist.com/hostslist/hosts.txt"
-      type: "Domain"
-      parser: "hostsfile"
-    website: "https://www.malwaredomainlist.com/"
-    contribute: "https://www.malwaredomainlist.com/contact.php"
-    license: "Our list can be used for free by anyone. Feel free to use it."
 
   - name: "MVPS Hosts File"
     id: "MVPS"
