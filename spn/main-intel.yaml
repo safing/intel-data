@@ -7,8 +7,10 @@ BootstrapHubs:
 TrustedHubs:
 - ZwhpYS1jWzXvPYKFhJqh1ZD3bKquLLoSoJ6RjeshmcXoFx # voria [US]
 - ZwkAKBoyEd3PkE5RGDNmghahzHiBiTZA7Mg3XH7X3HjS39 # noru [US]
+- ZwkapJz5HFWpgd9PHsZLVueBu9PDmTJHKp382Wm9MB2EB7 # lovas [US]
 - ZwkLShvVYvQFGmpY1MNhSSPXCktojywMVtv2N86mFbNH4w # tooina [CA]
 - Zwkwujs345P4ZygNZcEafawTqfZieCBVogQZ3xZPWiu7BU # heleus [FI]
+- Zwm72XieV6aeNKbwtJW8JdPUwT1hopQaLanLXjxcTfV3B9 # mergan [US]
 - Zwmp5SgUK9FidWBSCDK4d6dyRp3vhz3dQdwma1E4TMfiRw # grenenia [FR]
 - ZwnFd1bSQrBegPZqFkS7DZU29x4PbojpFmTQFUnzQoicKp # telos [IL]
 - Zwpg5FoXYVYidzgbdvDyvBBcrArmmHvK9nH3v7KDHiywtt # melcor [PL]
@@ -17,6 +19,8 @@ TrustedHubs:
 - ZwqANMrhcyJZb8cRMEd3FdPcXY7ZbvviPPfTUQpLNau12J # sulkam [GB]
 - ZwsvsES3SHz1VLnwFPxDbW6DC8Esp1PiEtUHxGnm4BTYHt # fungvis [DE]
 - Zwtb8EKMatnMRkW1VaLh8CPV3QswD9iuRU4Sda8uLezUkC # fogos [DS]
+- ZwtfvBuq5wkKYRth8rGCuGyp42nMe4doASUDJiDHJ8iucn # vamalla [AT]
+- ZwtjwvdPxG4u7oB2zmNJFvsDy5VDLT9UArDkYDGfC9bkDt # carros [US]
 - ZwvMZt6RcrrRuCdufjApnosxWbzsP8rTPRuHGeHu5KU241 # syniru [SG]
 - ZwvyDLz8221fcSBw6GKZNDnwEn4YmE9m7JPieLUVe7iGR9 # calla [CA]
 - Zwvz9S6uyxn4ww1JGqJiisGMDmH2hz6mhwutmJXvTtwQww # cidai [US]
@@ -41,6 +45,12 @@ InfoOverrides:
     Coordinates: # Ashburn, VA
       Latitude: 39.04
       Longitude: -77.48
+      AccuracyRadius: 20
+  ZwkapJz5HFWpgd9PHsZLVueBu9PDmTJHKp382Wm9MB2EB7: # lovas
+    CountryCode: US
+    Coordinates: # Los Angeles, CA
+      Latitude: 34.03
+      Longitude: -118.15
       AccuracyRadius: 20
   Zwmp5SgUK9FidWBSCDK4d6dyRp3vhz3dQdwma1E4TMfiRw: # grenenia
     CountryCode: FR
