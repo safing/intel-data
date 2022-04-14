@@ -17,6 +17,7 @@ TrustedHubs:
 - ZwpsJpwngWyba54AbVkCawcRQ2HP37RRQAgj5LHNR2svRf # soalis [AU]
 - Zwpy5hbrQkKznJwbUmn9WpJwGkpWD9VqE2pi9yfMDQM7PK # rin9 [FR]
 - ZwqANMrhcyJZb8cRMEd3FdPcXY7ZbvviPPfTUQpLNau12J # sulkam [GB]
+- ZwqDPp57NwZQqYLVTE3xKPUzJZjdwVYnig8a9YnaRPCQGC # surn [US]
 - ZwsvsES3SHz1VLnwFPxDbW6DC8Esp1PiEtUHxGnm4BTYHt # fungvis [DE]
 - Zwtb8EKMatnMRkW1VaLh8CPV3QswD9iuRU4Sda8uLezUkC # fogos [DS]
 - ZwtfvBuq5wkKYRth8rGCuGyp42nMe4doASUDJiDHJ8iucn # vamalla [AT]
@@ -57,6 +58,12 @@ InfoOverrides:
     Coordinates: # Gravelines
       Latitude: 50.59
       Longitude: 2.07
+      AccuracyRadius: 20
+  ZwqDPp57NwZQqYLVTE3xKPUzJZjdwVYnig8a9YnaRPCQGC: # surn
+    CountryCode: US
+    Coordinates: # Seattle, WA
+      Latitude: 47.36
+      Longitude: -122.19
       AccuracyRadius: 20
   ZwvMZt6RcrrRuCdufjApnosxWbzsP8rTPRuHGeHu5KU241: # syniru
     CountryCode: SG
