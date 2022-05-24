@@ -54,11 +54,11 @@ categories:
     parent: "NSFW"
   - name: "Gambling"
     id: "GAMBL"
-    description: "Services that provide pornographic content in addition to other content that is safe for work."
+    description: "Services for gambling."
     parent: "NSFW"
   - name: "Mixed"
     id: "NSFWM"
-    description: "Services that are generally not accepted in work environments."
+    description: "Services that provide pornographic content in addition to other content that is safe for work."
     parent: "NSFW"
 
   - name: "Experiments"
