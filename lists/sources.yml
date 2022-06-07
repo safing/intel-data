@@ -1,4 +1,4 @@
-version: "v2022.2.3"
+version: "v2022.6.7"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
@@ -64,6 +64,10 @@ categories:
   - name: "Experiments"
     id: "EXPERIMENTS"
     description: "Experimental lists of various categories that are being evaluated and might easily break websites and applications. Feedback on these lists is very welcome."
+
+  - name: "Unbreak Popular Websites"
+    id: "UNBREAK"
+    description: "Even the best filter lists sometimes break a website. Activate this category to lift potential blocks of popular domains. Will never lift user configured rules and settings."
 
 sources:
   - name: "AdAway Ads List"
@@ -382,6 +386,24 @@ sources:
   # DShield.org Suspicious Domain List
   # Currently suspended.
   # See https://dshield.org/suspicious_domains.html
+
+  - name: "Safing Unbreak List"
+    id: "17-UNBREAK"
+    description: "Safing's maintained unbreak list that lifts breaking blocks of some popular websites or software."
+    category: "UNBREAK"
+    urls:
+      - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/unbreak.txt"
+        type: "Domain"
+        parser: "domainlist"
+      - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/unbreak-ip4.txt"
+        type: "IPv4"
+        parser: "hostsfile"
+      - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/unbreak-ip6.txt"
+        type: "IPv6"
+        parser: "hostsfile"
+    website: "https://github.com/safing/intel-data"
+    contribute: "https://github.com/safing/intel-data"
+    license: "CC-BY-SA-4.0"
 
   - name: "Safing Special List: Secure DNS Resolvers"
     id: "17-DNS"

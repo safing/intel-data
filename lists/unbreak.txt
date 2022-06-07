@@ -1,0 +1,5 @@
+# Copyright by Intel-Data Authors
+# Managed by Safing at https://github.com/safing/intel-data
+# License: CC-BY-SA-4.0
+
+t.co # Used by Twitter for outgoing links.
