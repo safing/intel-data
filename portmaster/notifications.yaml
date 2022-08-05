@@ -3,7 +3,7 @@ notifications:
   new-network-monitor-feedback:
     title: "New: Full-Device Network Activity"
     message: "We re-imagined the network monitor to bring you better search and graphs. Thanks for being a Beta Tester! We would love to hear your feedback on [Twitter](https://twitter.com/SafingIO), [Reddit](https://www.reddit.com/r/safing), [GitHub](https://github.com/safing/portmaster-ui/issues/new/choose) or [via Email](mailto:support@safing.io)."
-    match: "Version sameas 0.9.2 and Updates.Channel sameas beta"
+    match: "Version sameas 0.9.3 and Updates.Channel sameas beta"
 
   release-channel-staging-warning:
     title: "Using Staging Releases"
