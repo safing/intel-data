@@ -11,7 +11,7 @@ notifications:
       Portmaster is set to the "Staging" release channel. This channel is used to test releases and should not be used unless instructed to and only for a short duration. Releases in this channel might contain unreleased and highly experimental code.
     match: "Updates.Channel sameas staging"
     type: 1 # Warning
-    permanent: true
+    repeat: 168h # 1 week
     availableActions:
       - text: "Change Channel"
         type: open-setting
@@ -24,7 +24,7 @@ notifications:
       Portmaster is set to the "Support" release channel. This channel is used to release special versions custom made for specific users for debugging and testing. Do not use unless instructed to and only for a short duration. Releases in this channel might contain unreleased and highly experimental code.
     match: "Updates.Channel sameas support"
     type: 1 # Warning
-    permanent: true
+    repeat: 168h # 1 week
     availableActions:
       - text: "Change Channel"
         type: open-setting
