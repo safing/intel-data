@@ -9,6 +9,32 @@ notifications:
         type: open-url
         payload: https://safing.io/blog/2022/08/18/portmaster-0.9-new-network-monitor/?source=Portmaster
 
+  setting-migration-incoming-connections:
+    title: "Settings for Incoming Connections CHANGED"
+    message: |
+      The "Incoming Rules" now follow the "Default Network Action" (default: allow), making them work the same as "Outgoing Rules". To still block incoming connections, "Force Block Incoming Connections" is now enabled globally by default - add exceptions in apps! Please review your settings.
+    match: "NumericVersion >= 9006 and Install.NumericVersion < 9006"
+    type: 1 # Warning
+    showOnSystem: true
+    availableActions:
+      - text: "Read More"
+        type: open-url
+        payload: https://github.com/safing/portmaster/issues/886
+
+  dangerous-setting-global-allow-incoming:
+    title: "Dangerous Setting: Incoming Connections"
+    message: |
+      You have disabled "Force Block Incoming Connections" globally. This allows incoming connections for every application by default. This is dangerous and we encourage you to enable this setting globally and then deactivate it for apps that need incoming connections.
+    match: "NumericVersion >= 9006 and Config.filter/blockInbound exists and Config.filter/blockInbound not == 7"
+    type: 3 # Error
+    showOnSystem: true
+    repeat: 168h # 1 week
+    availableActions:
+      - text: "Change Setting"
+        type: open-setting
+        payload:
+          Key: filter/blockInbound
+
   release-channel-staging-warning:
     title: "Using Staging Releases"
     message: |
