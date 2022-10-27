@@ -160,7 +160,7 @@ DiscontinuedHubs: # Deprecated.
 - ZwvTyGpjEELMCWMgyt8GELiBGP4vRyZ56mKy3XMmLGfYCo # ronbar
 AdviseOnlyTrustedHubs: false
 AdviseOnlyTrustedHomeHubs: true
-AdviseOnlyTrustedDestinationHubs: true
+AdviseOnlyTrustedDestinationHubs: false
 InfoOverrides: # Deprecated.
   ZwhpYS1jWzXvPYKFhJqh1ZD3bKquLLoSoJ6RjeshmcXoFx: # voria
     CountryCode: US
