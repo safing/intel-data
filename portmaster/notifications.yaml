@@ -1,13 +1,13 @@
 ---
 notifications:
-  release-announcement-v09:
-    title: "New: Graphs & Full-Device Network Activity"
-    message: "[Read all about the new features of version 0.9 in the release blog post](https://safing.io/blog/2022/08/18/portmaster-0.9-new-network-monitor/?source=Portmaster). Thanks for using Portmaster!"
-    match: "Version startswith 0.9."
+  release-announcement-v10:
+    title: "New: Portmaster 1.0 - A New Chapter Begins"
+    message: "[Read all about the new Side-Dash and what version 1.0 means for the future](https://safing.io/blog/2022/10/27/portmaster-reaches-1.0/?source=Portmaster). Thanks for using Portmaster!"
+    match: "Version startswith 1.0."
     availableActions:
-      - text: "Read Blog"
+      - text: "View Blog"
         type: open-url
-        payload: https://safing.io/blog/2022/08/18/portmaster-0.9-new-network-monitor/?source=Portmaster
+        payload: https://safing.io/blog/2022/10/27/portmaster-reaches-1.0/?source=Portmaster
 
   setting-migration-incoming-connections:
     title: "Settings for Incoming Connections CHANGED"
