@@ -67,7 +67,7 @@ Hubs:
   ZwqANMrhcyJZb8cRMEd3FdPcXY7ZbvviPPfTUQpLNau12J: # sulkam [GB]
     Trusted: true
     VerifiedOwner: Safing
-  ZwvNJqH6TpwvinFTkZkR7e1YdMSQzj6MhjjD8KqJm1KrgB: # surn [US]
+  ZwwBspMhigqcEYv2cryipzJsi4vkHhnBqUmDmkJ2xizGFx: # surn [US]
     Trusted: true
     VerifiedOwner: Safing
     Override:
@@ -138,7 +138,7 @@ TrustedHubs: # Deprecated.
 - ZwpsJpwngWyba54AbVkCawcRQ2HP37RRQAgj5LHNR2svRf # soalis [AU]
 - Zwpy5hbrQkKznJwbUmn9WpJwGkpWD9VqE2pi9yfMDQM7PK # rin9 [FR]
 - ZwqANMrhcyJZb8cRMEd3FdPcXY7ZbvviPPfTUQpLNau12J # sulkam [GB]
-- ZwvNJqH6TpwvinFTkZkR7e1YdMSQzj6MhjjD8KqJm1KrgB # surn [US]
+- ZwwBspMhigqcEYv2cryipzJsi4vkHhnBqUmDmkJ2xizGFx # surn [US]
 - ZwsvsES3SHz1VLnwFPxDbW6DC8Esp1PiEtUHxGnm4BTYHt # fungvis [DE]
 - Zwtb8EKMatnMRkW1VaLh8CPV3QswD9iuRU4Sda8uLezUkC # fogos [DS]
 - ZwtfvBuq5wkKYRth8rGCuGyp42nMe4doASUDJiDHJ8iucn # vamalla [AT]
@@ -180,7 +180,7 @@ InfoOverrides: # Deprecated.
       Latitude: 50.59
       Longitude: 2.07
       AccuracyRadius: 20
-  ZwvNJqH6TpwvinFTkZkR7e1YdMSQzj6MhjjD8KqJm1KrgB: # surn
+  ZwwBspMhigqcEYv2cryipzJsi4vkHhnBqUmDmkJ2xizGFx: # surn
     CountryCode: US
     Coordinates: # Seattle, WA
       Latitude: 47.36
