@@ -57,8 +57,6 @@ Hubs:
   Zwpy5hbrQkKznJwbUmn9WpJwGkpWD9VqE2pi9yfMDQM7PK: # rin9 [FR]
     Trusted: true
     VerifiedOwner: Safing
-    Trusted: true
-    VerifiedOwner: Safing
     Override:
       CountryCode: FR
       Coordinates: # Strasbourg
@@ -134,6 +132,10 @@ Hubs:
   ZwxE83uRV9LcM8Bm3QjXjjejNRhBBBJAethPf14R6gcZwf: # steepeus [SE]
     Trusted: true
     VerifiedOwner: Safing
+
+InfoOverrides:
+  workaround:
+    for: bug
 
 AdviseOnlyTrustedHubs: false
 AdviseOnlyTrustedHomeHubs: true
