@@ -139,10 +139,7 @@ InfoOverrides:
 
 AdviseOnlyTrustedHubs: false
 AdviseOnlyTrustedHomeHubs: true
-AdviseOnlyTrustedDestinationHubs: false
-
-DestinationHubAdvisory:
-- "- 134.122.36.68" # Hub Zwn8a5sr2cHeuDCtrYETevG7Aj2M6hJuwaqbG17c29w1CS "snuffedout" seems to be misconfigured on the network level - does connect to destinations.
+AdviseOnlyTrustedDestinationHubs: true
 
 Regions:
 - ID: europe
