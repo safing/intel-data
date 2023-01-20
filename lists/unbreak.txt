@@ -5,3 +5,4 @@
 t.co # Used by Twitter for outgoing links.
 wl.spotify.com # Required for password reset links to work.
 storage.signal.org # Required for signal group chats to work correctly.
+vlscppe.microsoft.com # Required by Microsoft to log into their services. 
