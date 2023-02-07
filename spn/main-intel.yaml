@@ -139,7 +139,13 @@ InfoOverrides:
 
 AdviseOnlyTrustedHubs: false
 AdviseOnlyTrustedHomeHubs: true
-AdviseOnlyTrustedDestinationHubs: true
+AdviseOnlyTrustedDestinationHubs: false
+
+HomeHubAdvisory:
+- "- Zwj52Q7d5ezvFk7HKB42dBtFu152bC9JasYF7BHB724RfG" # sono [NL] is too slow for home hub
+- "- Zwm9JX1hBNUUvSYc3gpMhmw84ay45SuyXE7D2UgETM7XCn" # porcania [PT] is too slow for home hub
+- "- ZwmhYMEmw36CzgVUp9sLjoK3gkVDWdMPiupEcekpTAXur8" # ivtos [TR] is too slow for home hub
+- "- ZwvPQVFkoDbx3J6qThNwfLHZqwvFgUYLYtirCHVd7FfjBz" # perturn [CZ] is too slow for home hub
 
 Regions:
 - ID: europe
