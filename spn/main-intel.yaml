@@ -139,7 +139,7 @@ InfoOverrides:
 
 AdviseOnlyTrustedHubs: false
 AdviseOnlyTrustedHomeHubs: true
-AdviseOnlyTrustedDestinationHubs: false
+AdviseOnlyTrustedDestinationHubs: true
 
 HomeHubAdvisory:
 - "- Zwj52Q7d5ezvFk7HKB42dBtFu152bC9JasYF7BHB724RfG" # sono [NL] is too slow for home hub
