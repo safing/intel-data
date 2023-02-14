@@ -1,25 +1,13 @@
 ---
 notifications:
-  release-announcement-v10:
-    title: "New: Portmaster 1.0 - A New Chapter Begins"
-    message: "[Read all about the new Side-Dash and what version 1.0 means for the future](https://safing.io/blog/2022/10/27/portmaster-reaches-1.0/?source=Portmaster). Thanks for using Portmaster!"
-    match: "Version startswith 1.0."
-    availableActions:
-      - text: "View Blog"
-        type: open-url
-        payload: https://safing.io/blog/2022/10/27/portmaster-reaches-1.0/?source=Portmaster
-
-  setting-migration-incoming-connections:
-    title: "Settings for Incoming Connections CHANGED"
-    message: |
-      The "Incoming Rules" now follow the "Default Network Action" (default: allow), making them work the same as "Outgoing Rules". To still block incoming connections, "Force Block Incoming Connections" is now enabled globally by default - add exceptions in apps! Please review your settings.
-    match: "NumericVersion >= 9006 and Install.NumericVersion < 9006"
-    type: 1 # Warning
+  valentines-day-promotion:
+    title: "Portmaster 69 Sale for Valentine's Day"
+    message: "Get 30% off Portmaster Unlimited. Upgrade or extend your privacy today: https://safing.io/pricing"
     showOnSystem: true
     availableActions:
-      - text: "Read More"
+      - text: "Buy Today"
         type: open-url
-        payload: https://github.com/safing/portmaster/issues/886
+        payload: https://safing.io/pricing/?source=Portmaster
 
   dangerous-setting-global-allow-incoming:
     title: "Dangerous Setting: Incoming Connections"
