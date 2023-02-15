@@ -1,14 +1,5 @@
 ---
 notifications:
-  valentines-day-promotion:
-    title: "Portmaster 69 Sale for Valentine's Day"
-    message: "Get 30% off Portmaster Unlimited. Upgrade or extend your privacy today: https://safing.io/pricing"
-    showOnSystem: true
-    availableActions:
-      - text: "Buy Today"
-        type: open-url
-        payload: https://safing.io/pricing/?source=Portmaster
-
   dangerous-setting-global-allow-incoming:
     title: "Dangerous Setting: Incoming Connections"
     message: |
