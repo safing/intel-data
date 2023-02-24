@@ -163,9 +163,11 @@ Hubs:
         Longitude: 153.2
         AccuracyRadius: 20
 
+# Advisories
+
 AdviseOnlyTrustedHubs: false
 AdviseOnlyTrustedHomeHubs: true
-AdviseOnlyTrustedDestinationHubs: true
+AdviseOnlyTrustedDestinationHubs: false
 
 HomeHubAdvisory:
 - "- Zwj52Q7d5ezvFk7HKB42dBtFu152bC9JasYF7BHB724RfG" # sono [NL] is too slow for home hub
