@@ -260,4 +260,53 @@ Regions:
   - "+ PM"
   - "+ SV"
   - "+ US"
-  
+- ID: oceania-se-asia
+  Name: "Oceania & SE Asia"
+  RegionalMinLanes: 5
+  RegionalMinLanesPerHub: 0.7
+  RegionalMaxLanesOnHub: 2
+  SatelliteMinLanes: 2
+  SatelliteMinLanesPerHub: 0.3
+  InternalMinLanesOnHub: 3
+  InternalMaxHops: 3
+  MemberPolicy:
+  - "+ AS"
+  - "+ AU"
+  - "+ BN"
+  - "+ CC"
+  - "+ CK"
+  - "+ CX"
+  - "+ FJ"
+  - "+ FM"
+  - "+ GU"
+  - "+ HM"
+  - "+ ID"
+  - "+ KH"
+  - "+ KI"
+  - "+ LA"
+  - "+ MH"
+  - "+ MM"
+  - "+ MP"
+  - "+ MY"
+  - "+ NC"
+  - "+ NF"
+  - "+ NR"
+  - "+ NU"
+  - "+ NZ"
+  - "+ PF"
+  - "+ PG"
+  - "+ PH"
+  - "+ PN"
+  - "+ PW"
+  - "+ SB"
+  - "+ SG"
+  - "+ TH"
+  - "+ TK"
+  - "+ TL"
+  - "+ TO"
+  - "+ TV"
+  - "+ UM"
+  - "+ VN"
+  - "+ VU"
+  - "+ WF"
+  - "+ WS"
