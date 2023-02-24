@@ -6,6 +6,8 @@ BootstrapHubs:
 - tcp://95.216.13.61:17#Zwkwujs345P4ZygNZcEafawTqfZieCBVogQZ3xZPWiu7BU # heleus [FI]
 
 Hubs:
+
+  # Safing
   ZwhpYS1jWzXvPYKFhJqh1ZD3bKquLLoSoJ6RjeshmcXoFx: # voria [US]
     Trusted: true
     VerifiedOwner: Safing
@@ -54,6 +56,12 @@ Hubs:
   ZwpsJpwngWyba54AbVkCawcRQ2HP37RRQAgj5LHNR2svRf: # soalis [AU]
     Trusted: true
     VerifiedOwner: Safing
+    Override:
+      CountryCode: AU
+      Coordinates: # Sydney
+        Latitude: -33.34
+        Longitude: 151.21
+        AccuracyRadius: 20
   Zwpy5hbrQkKznJwbUmn9WpJwGkpWD9VqE2pi9yfMDQM7PK: # rin9 [FR]
     Trusted: true
     VerifiedOwner: Safing
@@ -133,9 +141,27 @@ Hubs:
     Trusted: true
     VerifiedOwner: Safing
 
-InfoOverrides:
-  workaround:
-    for: bug
+  # CoinFundIt.com
+  Zwn59zsKETQwrPQ37oiQLMDDY5SSLKpxvpZh2u2jTfLdbb: # per-spn.CoinFundIt.com [AU]
+    VerifiedOwner: CoinFundIt.com
+    Override:
+      CountryCode: AU
+      Coordinates: # Perth
+        Latitude: -31.57
+        Longitude: 115.51
+        AccuracyRadius: 20
+  ZwqBAzGqifBAFKFW1GQijNM18pi7BnWH34GyKBF7KB5fC5: # mel-spn.CoinFundIt.com [AU]
+    VerifiedOwner: CoinFundIt.com
+  ZwrqwfpgoipNdvN47AbzFQFBzH2KrhYV8wr1igUe1qhwDj: # syd-spn.CoinFundIt.com [AU]
+    VerifiedOwner: CoinFundIt.com
+  Zwv6mhprRozJMWZATXBuzrxjnXMpWncmKBeQj4xrK4M3ks: # bris-spn.CoinFundIt.com [AU]
+    VerifiedOwner: CoinFundIt.com
+    Override:
+      CountryCode: AU
+      Coordinates: # Perth
+        Latitude: -27.28
+        Longitude: 153.2
+        AccuracyRadius: 20
 
 AdviseOnlyTrustedHubs: false
 AdviseOnlyTrustedHomeHubs: true
