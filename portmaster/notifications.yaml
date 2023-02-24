@@ -1,5 +1,11 @@
 ---
 notifications:
+
+  # Estimated available space:
+  # 7 lines at
+  # 50-60 characters per line
+  # resuling in about 350-400 characters
+
   dangerous-setting-global-allow-incoming:
     title: "Dangerous Setting: Incoming Connections"
     message: |
@@ -39,3 +45,10 @@ notifications:
         type: open-setting
         payload:
           Key: core/releaseChannel
+
+  update-server-migrated:
+    title: "Update Server Migrated"
+    message: |
+      Yesterday (Feb 23rd), we migrated the update server into a new cluster - a necessary step since Portmaster releases are quickly becoming multi-Terabyte transfers. We are sorry for the unexpected downtime this has caused. We faced unexpected problems, but completed the migration successfully in the end.  
+      Thanks for using Portmaster and for spreading the word!
+    match: "Install.NumericDate < 20230224 and NumericVersion <= 1000007"
