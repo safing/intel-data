@@ -9,8 +9,6 @@ BootstrapHubs:
 - tcp://[2a01:4f9:2a:d48::2]:17#Zwkwujs345P4ZygNZcEafawTqfZieCBVogQZ3xZPWiu7BU # heleus [FI]
 - tcp://[2a01:4f9:2a:d48::2]:17017#Zwkwujs345P4ZygNZcEafawTqfZieCBVogQZ3xZPWiu7BU # heleus [FI]
 
-17017
-
 Hubs:
 
   # Safing
