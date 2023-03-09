@@ -38,7 +38,7 @@ Hubs:
   Zwm72XieV6aeNKbwtJW8JdPUwT1hopQaLanLXjxcTfV3B9: # mergan [US]
     Trusted: true
     VerifiedOwner: Safing
-  Zwmp5SgUK9FidWBSCDK4d6dyRp3vhz3dQdwma1E4TMfiRw: # grenenia [FR]
+  ZwiSs8tE4KxzTpN126eWL5v4rPi3cJK99AYKef5XoTjjNQ: # grenenia [FR]
     Trusted: true
     VerifiedOwner: Safing
     Override:
@@ -50,7 +50,7 @@ Hubs:
   ZwnFd1bSQrBegPZqFkS7DZU29x4PbojpFmTQFUnzQoicKp: # telos [IL]
     Trusted: true
     VerifiedOwner: Safing
-  Zwpg5FoXYVYidzgbdvDyvBBcrArmmHvK9nH3v7KDHiywtt: # melcor [PL]
+  ZwtvDGdT4ndzZgEZetunfJwNfEdurmAqQWMKLmz6ghkjVD: # melcor [PL]
     Trusted: true
     VerifiedOwner: Safing
   ZwpsJpwngWyba54AbVkCawcRQ2HP37RRQAgj5LHNR2svRf: # soalis [AU]
@@ -62,7 +62,7 @@ Hubs:
         Latitude: -33.34
         Longitude: 151.21
         AccuracyRadius: 20
-  Zwpy5hbrQkKznJwbUmn9WpJwGkpWD9VqE2pi9yfMDQM7PK: # rin9 [FR]
+  ZwoonLRbp3CChFNjgYwvd3gj1TTwoSbUZENGcSuTtm3GGX: # rin9 [FR]
     Trusted: true
     VerifiedOwner: Safing
     Override:
@@ -144,6 +144,12 @@ Hubs:
     Trusted: true
     VerifiedOwner: Safing
   ZwveTQdMUGgXfix9JA8cGxHXcvkZxp1oMJGuf2ix7CYRMK: # churaka [CH]
+    Trusted: true
+    VerifiedOwner: Safing  
+  ZwvBNwSHJBo3j9HoiEp9jDo2uEwiaR8pzbXvKXjNyhEh7v: # katiza [KZ]
+    Trusted: true
+    VerifiedOwner: Safing
+  ZwoEAgcwbt6hWGCY27QnoK73UhX2G9nkHpcuMjyNYur6R6: # theta [US]
     Trusted: true
     VerifiedOwner: Safing
 
