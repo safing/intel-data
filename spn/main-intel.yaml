@@ -152,6 +152,15 @@ Hubs:
   ZwoEAgcwbt6hWGCY27QnoK73UhX2G9nkHpcuMjyNYur6R6: # theta [US]
     Trusted: true
     VerifiedOwner: Safing
+  ZwxJfB4c1vugsntRqnsa67eueE42TapjMCsxzNQyqhVZf7: # nonornia [NO]
+    Trusted: true
+    VerifiedOwner: Safing
+  ZwzKV4M8rG1kkwkHrGtaqWo7yw3Nkg7n7RkPqFn4jCcZ5S: # paloneta [IT]
+    Trusted: true
+    VerifiedOwner: Safing
+  ZwtwSjtUt6BNSfYrXGqeaH6MFM8ydGe8JpLxBZLmEKv3HQ: # talmlon [EE]
+    Trusted: true
+    VerifiedOwner: Safing
 
   # CoinFundIt.com
   Zwn59zsKETQwrPQ37oiQLMDDY5SSLKpxvpZh2u2jTfLdbb: # per-spn.CoinFundIt.com [AU]
