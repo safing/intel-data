@@ -161,6 +161,18 @@ Hubs:
   ZwtwSjtUt6BNSfYrXGqeaH6MFM8ydGe8JpLxBZLmEKv3HQ: # talmlon [EE]
     Trusted: true
     VerifiedOwner: Safing
+  ZwiTC4B6ZqG97P5qJ5ae4eBggm2Tpwow7NH9J7KG3Wo3qv: # nonus [US]
+    Trusted: true
+    VerifiedOwner: Safing
+  ZwpjocQ2NsDcYwiMxL56CANWKgiF5sdfRJMypjLYjvTn2W: # mazea [ES]
+    Trusted: true
+    VerifiedOwner: Safing
+    Override:
+      CountryCode: ES
+      Coordinates: # Madrid
+        Latitude: 40.41
+        Longitude: -3.70
+        AccuracyRadius: 20
 
   # CoinFundIt.com
   Zwn59zsKETQwrPQ37oiQLMDDY5SSLKpxvpZh2u2jTfLdbb: # per-spn.CoinFundIt.com [AU]
