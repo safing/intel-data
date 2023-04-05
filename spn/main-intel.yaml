@@ -173,6 +173,12 @@ Hubs:
         Latitude: 40.41
         Longitude: -3.70
         AccuracyRadius: 20
+  ZwpJArjYPxGP2nhazepe9jScoQTVxoTYmcAXjda3P7TBoZ: # azzonule [IT]
+    Trusted: true
+    VerifiedOwner: Safing
+  Zwjv9sseEnKtarrxgVtwureUHwghLKyt8oPo7UgLcMJp78: # miranian [IT]
+    Trusted: true
+    VerifiedOwner: Safing
 
   # CoinFundIt.com
   Zwn59zsKETQwrPQ37oiQLMDDY5SSLKpxvpZh2u2jTfLdbb: # per-spn.CoinFundIt.com [AU]
