@@ -1,0 +1,27 @@
+# Copyright by Intel-Data Authors
+# Managed by the Community at https://github.com/safing/intel-data
+# License: CC-BY-SA-4.0
+
+aaplimg.com
+apple-dns.net
+apple.com
+apple.com.akadns.net
+apple.com.edgekey.net
+apple.com.edgesuite.net
+blobstore-apple.com.akadns.net
+buglife.com
+cdn-apple.com.akadns.net
+crashlytics.com
+ess-apple.com.akadns.net
+gc-apple.com.akadns.net
+guzzoni-apple.com.akadns.net
+icloud.com
+icloud.com.akadns.net
+itunes-apple.com.akadns.net
+live.com.akadns.net
+mail.me.com.akadns.net
+mzstatic.com
+oa-apple.com.akadns.net
+push-apple.com.akadns.net
+skypedata.akadns.net
+weather.com

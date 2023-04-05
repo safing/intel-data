@@ -61,6 +61,10 @@ categories:
     description: "Services that provide pornographic content in addition to other content that is safe for work."
     parent: "NSFW"
 
+  - name: "Big Tech"
+    ID: "BIGT"
+    description: Block all services from selected Big Tech companies. This will naturally make services from selected companies unusable. Does not affect third parties using big tech cloud platforms, such as AWS.
+
   - name: "Experiments"
     id: "EXPERIMENTS"
     description: "Experimental lists of various categories that are being evaluated and might easily break websites and applications. Feedback on these lists is very welcome."
@@ -546,3 +550,58 @@ sources:
     website: "https://github.com/ScottHelme/revocation-endpoints"
     contribute: "https://github.com/ScottHelme/revocation-endpoints/issues"
     license: "CC0-1.0"
+
+  - name: "Facebook/Meta"
+    id: "BT-META"
+    description: "Services provided by Facebook/Meta. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community."
+    urls:
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/big-tech/facebook-meta.txt"
+      type: "Domain"
+      parser: "domainlist"
+    website: "https://github.com/safing/intel-data"
+    contribute: "https://github.com/safing/intel-data"
+    license: "CC-BY-SA-4.0"
+
+  - name: "Amazon"
+    id: "BT-AMZN"
+    description: "Services provided by Amazon. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community."
+    urls:
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/big-tech/amazon.txt"
+      type: "Domain"
+      parser: "domainlist"
+    website: "https://github.com/safing/intel-data"
+    contribute: "https://github.com/safing/intel-data"
+    license: "CC-BY-SA-4.0"
+
+  - name: "Google"
+    id: "BT-GOOG"
+    description: "Services provided by Google. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community."
+    urls:
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/big-tech/google.txt"
+      type: "Domain"
+      parser: "domainlist"
+    website: "https://github.com/safing/intel-data"
+    contribute: "https://github.com/safing/intel-data"
+    license: "CC-BY-SA-4.0"
+
+  - name: "Apple"
+    id: "BT-APPL"
+    description: "Services provided by Apple. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community."
+    urls:
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/big-tech/apple.txt"
+      type: "Domain"
+      parser: "domainlist"
+    website: "https://github.com/safing/intel-data"
+    contribute: "https://github.com/safing/intel-data"
+    license: "CC-BY-SA-4.0"
+
+  - name: "Microsoft"
+    id: "BT-MSFT"
+    description: "Services provided by Microsoft. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community."
+    urls:
+    - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/big-tech/microsoft.txt"
+      type: "Domain"
+      parser: "domainlist"
+    website: "https://github.com/safing/intel-data"
+    contribute: "https://github.com/safing/intel-data"
+    license: "CC-BY-SA-4.0"
