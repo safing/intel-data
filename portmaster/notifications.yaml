@@ -45,3 +45,28 @@ notifications:
         type: open-setting
         payload:
           Key: core/releaseChannel
+
+  updates-disabled:
+    title: "Updates Disabled"
+    message: |
+      Automatic updates are completely disabled through configuration. Please note that this is potentially dangerous, as this also affects security updates as well as the filter lists and threat intelligence feeds. It is recommended to at least enable automatic intelligence data updates.
+    match: "Config.core/automaticUpdates is false and Config.core/automaticIntelUpdates is false"
+    type: 1 # Warning
+    repeat: 168h # 1 week
+    availableActions:
+    - text: "Change Setting"
+      type: open-setting
+      payload:
+        Key: core/automaticIntelUpdates
+
+  update-settings-improved:
+    title: "Update Settings Improved"
+    message: |
+      The settings for controlling automatic updates have been improved. A new setting called "Automatic Intelligence Data Updates" now controls automatic intelligence data updates and has been enabled by default. If you don't want to receive these important data updates, please disable this setting.
+    match: "Config.core/automaticUpdates is false and Install.NumericVersion < 1000012 and NumericVersion >= 1000012"
+    type: 1 # Warning
+    availableActions:
+    - text: "Change Setting"
+      type: open-setting
+      payload:
+        Key: core/automaticIntelUpdates
