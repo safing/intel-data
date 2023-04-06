@@ -553,7 +553,8 @@ sources:
 
   - name: "Facebook/Meta"
     id: "BT-META"
-    description: "Services provided by Facebook/Meta. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community."
+    description: |
+      Services provided by Facebook/Meta. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community.
     category: "BIGT"
     urls:
     - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/big-tech/facebook-meta.txt"
@@ -565,7 +566,8 @@ sources:
 
   - name: "Amazon"
     id: "BT-AMZN"
-    description: "Services provided by Amazon. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community."
+    description: |
+      Services provided by Amazon. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community.
     category: "BIGT"
     urls:
     - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/big-tech/amazon.txt"
@@ -577,7 +579,8 @@ sources:
 
   - name: "Google"
     id: "BT-GOOG"
-    description: "Services provided by Google. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community."
+    description: |
+      Services provided by Google. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community.
     category: "BIGT"
     urls:
     - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/big-tech/google.txt"
@@ -589,7 +592,8 @@ sources:
 
   - name: "Apple"
     id: "BT-APPL"
-    description: "Services provided by Apple. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community."
+    description: |
+      Services provided by Apple. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community.
     category: "BIGT"
     urls:
     - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/big-tech/apple.txt"
@@ -601,7 +605,8 @@ sources:
 
   - name: "Microsoft"
     id: "BT-MSFT"
-    description: "Services provided by Microsoft. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community."
+    description: |
+      Services provided by Microsoft. Requires "Block Subdomains of Filter List Entries" setting to be enabled to be effective. Curated by the community.
     category: "BIGT"
     urls:
     - url: "https://raw.githubusercontent.com/safing/intel-data/master/lists/big-tech/microsoft.txt"
