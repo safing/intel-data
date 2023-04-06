@@ -65,6 +65,7 @@ notifications:
       The settings for controlling automatic updates have been improved. A new setting called "Automatic Intelligence Data Updates" now controls automatic intelligence data updates and has been enabled by default. If you don't want to receive these important data updates, please disable this setting.
     match: "Config.core/automaticUpdates is false and Install.NumericVersion < 1000012 and NumericVersion >= 1000012"
     type: 1 # Warning
+    showOnSystem: true
     availableActions:
     - text: "Change Setting"
       type: open-setting
