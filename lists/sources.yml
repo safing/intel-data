@@ -1,4 +1,4 @@
-version: "v2023.4.6"
+version: "v2023.6.13"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
@@ -442,18 +442,6 @@ sources:
     website: "https://github.com/safing/intel-data"
     contribute: "https://github.com/safing/intel-data"
     license: "CC-BY-SA-4.0"
-
-  - name: "BlockYouX"
-    id: "BYX"
-    description: "Privacy Focused Block List by ceadd.ca."
-    category: "EXPERIMENTS"
-    urls:
-    - url: "https://ceadd.ca/blockyoux.txt"
-      type: "Domain"
-      parser: "hostsfile"
-    website: "https://ceadd.ca/blockyoux/"
-    contribute: "https://ceadd.ca/blockyoux/"
-    license: "BlockYouX is free."
 
   - name: "Tracker List by Daniel Cuthbert"
     id: "DCT"
