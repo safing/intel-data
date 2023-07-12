@@ -6,6 +6,15 @@ notifications:
   # 50-60 characters per line
   # resuling in about 350-400 characters
 
+  release-announcement-v1-1-0:
+    title: "What's New in v1.1"
+    message: "[Read about the re-imagined SPN map of version 1.1 in the release blog post](https://safing.io/blog/2023/07/11/portmaster-v1.1/?source=Portmaster). Thanks for using Portmaster!"
+    match: "Version startswith 1.1."
+    availableActions:
+      - text: "Read Blog"
+        type: open-url
+        payload: https://safing.io/blog/2023/07/11/portmaster-v1.1/?source=Portmaster
+
   dangerous-setting-global-allow-incoming:
     title: "Dangerous Setting: Incoming Connections"
     message: |
