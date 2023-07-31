@@ -179,6 +179,30 @@ Hubs:
   Zwjv9sseEnKtarrxgVtwureUHwghLKyt8oPo7UgLcMJp78: # miranian [IT]
     Trusted: true
     VerifiedOwner: Safing
+  ZwjQ2nxpTsNtBfxcGyWHTEmR7sQrs5rpLMUuqH6WvVCJVQ: # atonia [US]
+    Trusted: true
+    VerifiedOwner: Safing
+  Zwvq7fgGuwWM14qStngZK2Z2q94fdHwr9SumtsJ9yufMPr: # lonelak [US]
+    Trusted: true
+    VerifiedOwner: Safing
+    Override:
+      CountryCode: US
+      Coordinates: # Los Angeles, CA
+        Latitude: 35.03
+        Longitude: -117.15
+        AccuracyRadius: 20
+  Zww4EQ5qhU12EKZ3AedHopGpv5NKe2bU57vxmbSrcqEf9e: # topatos [JP]
+    Trusted: true
+    VerifiedOwner: Safing
+    Override:
+      CountryCode: JP
+      Coordinates: # Tokyo
+        Latitude: 35.41
+        Longitude: 139.46
+        AccuracyRadius: 20
+  ZwqmacFUGWL9Z7njLA1oJagntczBZAmcxQoVfX6iMD3Jan: # sodan [RO]
+    Trusted: true
+    VerifiedOwner: Safing
 
   # CoinFundIt.com
   Zwn59zsKETQwrPQ37oiQLMDDY5SSLKpxvpZh2u2jTfLdbb: # per-spn.CoinFundIt.com [AU]
