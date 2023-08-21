@@ -37,7 +37,7 @@ notifications:
     title: "Dangerous Setting: Incoming Connections"
     message: |
       You have disabled "Force Block Incoming Connections" globally. This allows incoming connections for every application by default. This is dangerous and we encourage you to enable this setting globally and then deactivate it for apps that need incoming connections.
-    match: "NumericVersion >= 9006 and Config.filter/blockInbound exists and Config.filter/blockInbound not == 7"
+    match: "NumericVersion >= 9006 and Config.filter/blockInbound not == 7 and Config.core/expertiseLevel not sameas developer"
     type: 3 # Error
     showOnSystem: true
     repeat: 168h # 1 week
