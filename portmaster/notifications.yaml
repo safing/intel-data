@@ -6,6 +6,15 @@ notifications:
   # 50-60 characters per line
   # resuling in about 350-400 characters
 
+  release-announcement-v1-4-0:
+    title: "What's New in v1.4"
+    message: "[Read about the new dashboard in the release blog post](https://safing.io/blog/2023/08/21/portmaster-v1.4/?source=Portmaster). Thank you for using Portmaster!"
+    match: "Version startswith 1.4."
+    availableActions:
+      - text: "Read Blog"
+        type: open-url
+        payload: https://safing.io/blog/2023/08/21/portmaster-v1.4/?source=Portmaster
+
   release-announcement-v1-3-0:
     title: "What's New in v1.2 & v1.3"
     message: "[Read about the new network history feature and more in the release blog post](https://safing.io/blog/2023/08/08/portmaster-v1.3/?source=Portmaster). Thank you for using Portmaster!"
