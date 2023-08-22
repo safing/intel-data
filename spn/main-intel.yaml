@@ -203,6 +203,9 @@ Hubs:
   ZwqmacFUGWL9Z7njLA1oJagntczBZAmcxQoVfX6iMD3Jan: # sodan [RO]
     Trusted: true
     VerifiedOwner: Safing
+  Zwn5Rci4SUJTbpZNiQKj97HPd5RsaeoELbmYidS2k8sCAL: # locania [US]
+    Trusted: true
+    VerifiedOwner: Safing
 
   # CoinFundIt.com
   Zwn59zsKETQwrPQ37oiQLMDDY5SSLKpxvpZh2u2jTfLdbb: # per-spn.CoinFundIt.com [AU]
