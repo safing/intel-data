@@ -4,7 +4,7 @@ name: Close Stale Issues
 
 on:
   schedule:
-    - cron: "17 5 * * 1-5" # run at 5:17 (UTC) on Monday to Friday
+    - cron: "17 * * * 1-5" # run at 5:17 (UTC) on Monday to Friday
 
 permissions:
   contents: read
