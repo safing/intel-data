@@ -229,6 +229,15 @@ Hubs:
         Longitude: 153.2
         AccuracyRadius: 20
 
+  # Other
+  ZwzkDf9gv14AgV2uQAqoaAfuberRhqpiQfBhXZDctQGnrX: # sheridan [MX]
+    Override:
+      CountryCode: MX
+      Coordinates: # Mexico City
+        Latitude: 19
+        Longitude: -99
+        AccuracyRadius: 20
+
 # Advisories
 
 AdviseOnlyTrustedHubs: false
