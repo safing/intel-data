@@ -59,8 +59,8 @@ Hubs:
     Override:
       CountryCode: AU
       Coordinates: # Sydney
-        Latitude: -33.34
-        Longitude: 151.21
+        Latitude: -33
+        Longitude: 151
         AccuracyRadius: 20
   ZwoonLRbp3CChFNjgYwvd3gj1TTwoSbUZENGcSuTtm3GGX: # rin9 [FR]
     Trusted: true
@@ -197,13 +197,34 @@ Hubs:
     Override:
       CountryCode: JP
       Coordinates: # Tokyo
-        Latitude: 35.41
-        Longitude: 139.46
+        Latitude: 36
+        Longitude: 139
         AccuracyRadius: 20
   ZwqmacFUGWL9Z7njLA1oJagntczBZAmcxQoVfX6iMD3Jan: # sodan [RO]
     Trusted: true
     VerifiedOwner: Safing
   Zwn5Rci4SUJTbpZNiQKj97HPd5RsaeoELbmYidS2k8sCAL: # locania [US]
+    Trusted: true
+    VerifiedOwner: Safing
+  Zwk4Ntbb8RdLxS5rFJ78mZyehcij16A3AW2yDgo6LedLGH: # tovan [JP]
+    Trusted: true
+    VerifiedOwner: Safing
+    Override:
+      CountryCode: JP
+      Coordinates: # Tokyo
+        Latitude: 35
+        Longitude: 140
+        AccuracyRadius: 20
+  ZwyLExNAqpL877daki7ZaB2TwNVpZvxVC7kitHqth6YBNu: # synion [AU]
+    Trusted: true
+    VerifiedOwner: Safing
+    Override:
+      CountryCode: AU
+      Coordinates: # Sydney
+        Latitude: -34
+        Longitude: 152
+        AccuracyRadius: 20
+  ZwzBf2xCd5Jcy5MwmnQcGUXZYfGj4JyJFFPZrDwgxqU9SF: # sento [US]
     Trusted: true
     VerifiedOwner: Safing
 
