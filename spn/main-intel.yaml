@@ -250,6 +250,14 @@ Hubs:
         Longitude: 153.2
         AccuracyRadius: 20
 
+  # nul.lv
+  ZwkMhFKAZrpYQwPWXGwBb3xocYy8jzrVJLpShaxDDH4F6r: # staufer.safing.de [DE]
+    VerifiedOwner: nul.lv
+  ZwkRXg3EsVpLw3HHNqfhRB1R4unkavht4jmEdfitVKALuG: # salier.safing.de [DE]
+    VerifiedOwner: nul.lv
+  ZwyHvDZaBtmhstLCRR5KdK5AuJg8ScYXEAApsTpHLnY2MR: # karolinger.safing.de [DE]
+    VerifiedOwner: nul.lv
+
   # Other
   ZwzkDf9gv14AgV2uQAqoaAfuberRhqpiQfBhXZDctQGnrX: # sheridan [MX]
     Override:
