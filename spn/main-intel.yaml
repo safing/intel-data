@@ -251,11 +251,17 @@ Hubs:
         AccuracyRadius: 20
 
   # nul.lv
-  ZwkMhFKAZrpYQwPWXGwBb3xocYy8jzrVJLpShaxDDH4F6r: # staufer.safing.de [DE]
+  ZwkRXg3EsVpLw3HHNqfhRB1R4unkavht4jmEdfitVKALuG: # 2.de.nul.lv [DE]
     VerifiedOwner: nul.lv
-  ZwkRXg3EsVpLw3HHNqfhRB1R4unkavht4jmEdfitVKALuG: # salier.safing.de [DE]
+  ZwyHvDZaBtmhstLCRR5KdK5AuJg8ScYXEAApsTpHLnY2MR: # 3.de.nul.lv [DE]
     VerifiedOwner: nul.lv
-  ZwyHvDZaBtmhstLCRR5KdK5AuJg8ScYXEAApsTpHLnY2MR: # karolinger.safing.de [DE]
+  ZwkMhFKAZrpYQwPWXGwBb3xocYy8jzrVJLpShaxDDH4F6r: # 4.de.nul.lv [DE]
+    VerifiedOwner: nul.lv
+  ZwnHm2X2xFMDfVWXSkfcCjPLDGfVhMvH1mc4jLRiudBFnC: # 1.se.nul.lv [SE]
+    VerifiedOwner: nul.lv
+  Zwijwueze9uiYikoQgyiAP242HSmRqoaQs4jSKEXn9DEnv: # 1.cy.nul.lv [CY]
+    VerifiedOwner: nul.lv
+  ZwyZaoN8zNoc6KM65i8syaJ2GQZuCgW1S5Fj3CXEuoFYyA: # 1.gr.nul.lv [GR]
     VerifiedOwner: nul.lv
 
   # Other
