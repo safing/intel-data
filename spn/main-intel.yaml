@@ -35,6 +35,12 @@ Hubs:
   Zwkwujs345P4ZygNZcEafawTqfZieCBVogQZ3xZPWiu7BU: # heleus [FI]
     Trusted: true
     VerifiedOwner: Safing
+    Override:
+      CountryCode: FI
+      Coordinates: # Helsinki
+        Latitude: 60.4
+        Longitude: 25.0
+        AccuracyRadius: 20
   Zwm72XieV6aeNKbwtJW8JdPUwT1hopQaLanLXjxcTfV3B9: # mergan [US]
     Trusted: true
     VerifiedOwner: Safing
