@@ -42,8 +42,7 @@ Hubs:
         Longitude: 25.0
         AccuracyRadius: 20
   Zwm72XieV6aeNKbwtJW8JdPUwT1hopQaLanLXjxcTfV3B9: # mergan [US]
-    Trusted: true
-    VerifiedOwner: Safing
+    Discontinued: true
   ZwiSs8tE4KxzTpN126eWL5v4rPi3cJK99AYKef5XoTjjNQ: # grenenia [FR]
     Trusted: true
     VerifiedOwner: Safing
@@ -81,14 +80,7 @@ Hubs:
     Trusted: true
     VerifiedOwner: Safing
   ZwwBspMhigqcEYv2cryipzJsi4vkHhnBqUmDmkJ2xizGFx: # surn [US]
-    Trusted: true
-    VerifiedOwner: Safing
-    Override:
-      CountryCode: US
-      Coordinates: # Seattle, WA
-        Latitude: 47.36
-        Longitude: -122.19
-        AccuracyRadius: 20
+    Discontinued: true
   ZwsvsES3SHz1VLnwFPxDbW6DC8Esp1PiEtUHxGnm4BTYHt: # fungvis [DE]
     Trusted: true
     VerifiedOwner: Safing
@@ -120,32 +112,15 @@ Hubs:
     Trusted: true
     VerifiedOwner: Safing
   ZwvPQVFkoDbx3J6qThNwfLHZqwvFgUYLYtirCHVd7FfjBz: # perturn [CZ]
-    Trusted: true
-    VerifiedOwner: Safing
-    Override:
-      CountryCode: CZ
-      Coordinates: # Prague
-        Latitude: 50.05
-        Longitude: 14.25
-        AccuracyRadius: 100
+    Discontinued: true
   Zwj52Q7d5ezvFk7HKB42dBtFu152bC9JasYF7BHB724RfG: # sono [NL]
-    Trusted: true
-    VerifiedOwner: Safing
+    Discontinued: true
   ZwmhYMEmw36CzgVUp9sLjoK3gkVDWdMPiupEcekpTAXur8: # ivtos [TR]
-    Trusted: true
-    VerifiedOwner: Safing
-    Override:
-      CountryCode: TR
-      Coordinates: # Izmir
-        Latitude: 38.25
-        Longitude: 27.90
-        AccuracyRadius: 20
+    Discontinued: true
   Zwm9JX1hBNUUvSYc3gpMhmw84ay45SuyXE7D2UgETM7XCn: # porcania [PT]
-    Trusted: true
-    VerifiedOwner: Safing
+    Discontinued: true
   ZwxE83uRV9LcM8Bm3QjXjjejNRhBBBJAethPf14R6gcZwf: # steepeus [SE]
-    Trusted: true
-    VerifiedOwner: Safing
+    Discontinued: true
   Zwp4a4b6mWHAm9jk6nQYA4EKs91vggD8gPxV3tSbcTHfVK: # proadon [US]
     Trusted: true
     VerifiedOwner: Safing
@@ -153,11 +128,9 @@ Hubs:
     Trusted: true
     VerifiedOwner: Safing  
   ZwvBNwSHJBo3j9HoiEp9jDo2uEwiaR8pzbXvKXjNyhEh7v: # katiza [KZ]
-    Trusted: true
-    VerifiedOwner: Safing
+    Discontinued: true
   ZwoEAgcwbt6hWGCY27QnoK73UhX2G9nkHpcuMjyNYur6R6: # theta [US]
-    Trusted: true
-    VerifiedOwner: Safing
+    Discontinued: true
   ZwxJfB4c1vugsntRqnsa67eueE42TapjMCsxzNQyqhVZf7: # nonornia [NO]
     Trusted: true
     VerifiedOwner: Safing
@@ -165,8 +138,7 @@ Hubs:
     Trusted: true
     VerifiedOwner: Safing
   ZwtwSjtUt6BNSfYrXGqeaH6MFM8ydGe8JpLxBZLmEKv3HQ: # talmlon [EE]
-    Trusted: true
-    VerifiedOwner: Safing
+    Discontinued: true
   ZwiTC4B6ZqG97P5qJ5ae4eBggm2Tpwow7NH9J7KG3Wo3qv: # nonus [US]
     Trusted: true
     VerifiedOwner: Safing
@@ -180,11 +152,9 @@ Hubs:
         Longitude: -3.70
         AccuracyRadius: 20
   ZwpJArjYPxGP2nhazepe9jScoQTVxoTYmcAXjda3P7TBoZ: # azzonule [IT]
-    Trusted: true
-    VerifiedOwner: Safing
+    Discontinued: true
   Zwjv9sseEnKtarrxgVtwureUHwghLKyt8oPo7UgLcMJp78: # miranian [IT]
-    Trusted: true
-    VerifiedOwner: Safing
+    Discontinued: true
   ZwjQ2nxpTsNtBfxcGyWHTEmR7sQrs5rpLMUuqH6WvVCJVQ: # atonia [US]
     Trusted: true
     VerifiedOwner: Safing
