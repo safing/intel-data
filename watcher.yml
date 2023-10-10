@@ -11,3 +11,9 @@ artifacts:
     validator: yaml-object
     min-backoff: 10m
     max-backoff: 1h
+  - url: https://raw.githubusercontent.com/safing/intel-data/master/portmaster/news.yaml
+    scope: intel/portmaster
+    name: news.yaml
+    validator: yaml-object
+    min-backoff: 10m
+    max-backoff: 1h

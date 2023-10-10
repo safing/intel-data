@@ -1,0 +1,21 @@
+cards:
+  - title: Company Journey Update
+    url: https://safing.io/about/?source=Portmaster
+    body: |
+      Safing is on its way to become a sustainable company. [Subscribe today](https://safing.io/pricing?source=Portmaster) and take a stake in a long and fruitful future of high quality privacy software!
+    footer: |
+      Progress shows the percentage of costs Safing can cover with revenue only, based on the last three full months.  
+      Updated: October 2023
+    progress:
+      percent: 62
+      color: yellow
+
+  - title: Bi-Weekly Live Stream
+    url: https://www.youtube.com/c/safingio
+    body: |
+      Join our bi-weekly live stream where we discuss all things Portmaster and answer questions live from the community!
+
+      [Next: Thursday, October 19th on YouTube.](https://www.youtube.com/c/safingio)
+
+      Get talking during the event in our [Discord room](https://discord.gg/safing).  
+      Watch [previous live streams on Youtube](https://www.youtube.com/c/safingio).
