@@ -6,41 +6,14 @@ notifications:
   # 50-60 characters per line
   # resuling in about 350-400 characters
 
-  release-announcement-v1-4-0:
-    title: "What's New in v1.4"
-    message: "[Read about the new dashboard in the release blog post](https://safing.io/blog/2023/08/21/portmaster-v1.4/?source=Portmaster). Thank you for using Portmaster!"
-    match: "Version startswith 1.4."
+  release-announcement-v1-5-0:
+    title: "What's New in v1.5"
+    message: "[Read about the new bandwidth graphs in the release blog post](https://safing.io/blog/2023/10/18/Portmaster-v1.5/?source=Portmaster). Thank you for using Portmaster!"
+    match: "Version startswith 1.5."
     availableActions:
       - text: "Read Blog"
         type: open-url
-        payload: https://safing.io/blog/2023/08/21/portmaster-v1.4/?source=Portmaster
-
-  release-announcement-v1-3-0:
-    title: "What's New in v1.2 & v1.3"
-    message: "[Read about the new network history feature and more in the release blog post](https://safing.io/blog/2023/08/08/portmaster-v1.3/?source=Portmaster). Thank you for using Portmaster!"
-    match: "Version startswith 1.3."
-    availableActions:
-      - text: "Read Blog"
-        type: open-url
-        payload: https://safing.io/blog/2023/08/08/portmaster-v1.3/?source=Portmaster
-
-  new-plans-2023:
-    title: "New Portmaster Plans!"
-    message: "[Read about the new Portmaster plans and the future of Portmaster](https://safing.io/blog/2023/08/08/new-plans/?source=Portmaster). Thank you for using Portmaster!"
-    availableActions:
-      - text: "Read Blog"
-        type: open-url
-        payload: https://safing.io/blog/2023/08/08/new-plans/?source=Portmaster
-
-  new-feature-network-history:
-    title: "New Feature: Network History"
-    message: "Enable now to record the network activity of any app! Thank you for using Portmaster."
-    match: "Account.Active is true"
-    availableActions:
-      - text: "Enable Now"
-        type: open-setting
-        payload:
-          Key: history/enable
+        payload: https://safing.io/blog/2023/10/18/Portmaster-v1.5/?source=Portmaster
 
   dangerous-setting-global-allow-incoming:
     title: "Dangerous Setting: Incoming Connections"
