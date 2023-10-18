@@ -77,7 +77,7 @@ Hubs:
         Longitude: 7.45
         AccuracyRadius: 20
   ZwkvKyMUN8xxMca64kxwXXkY72p1WoU8nZJHQEc5JyDZYP: # sulkam [GB]
-    Trusted: true
+    Trusted: false
     VerifiedOwner: Safing
   ZwwBspMhigqcEYv2cryipzJsi4vkHhnBqUmDmkJ2xizGFx: # surn [US]
     Discontinued: true
