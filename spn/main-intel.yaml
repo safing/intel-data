@@ -256,6 +256,16 @@ Hubs:
   ZwznqtsQiPCfGK9fYQNPCNWYToEvEcZJGeRuok5q17epw1: # 1.ie.nul.lv [IE]
     VerifiedOwner: nul.lv
 
+  # StarApps GmbH
+  ZwiACWTwvuWTN6eB6bpL778iqDMjAuwpaAwEcpgLiwmw41:
+    Discontinued: true
+  ZwrC5BzKENNRLAVUX2SKBzxfquc98bfTYSTTgmmdB8V2hf: # StarAppsMobley [CH]
+    VerifiedOwner: StarApps GmbH
+  ZwyrvpgcLVmdCsJATgRpr7H5RZDbdx1xV9P2deDJgHuRJR: # StarAppsTrenton [CH]
+    VerifiedOwner: StarApps GmbH
+  ZwzgGWXW5LqE8P6jWfRsSo5XxBHfnotJydsfqgqkGqWNgJ: # StarAppsRomero [CH]
+    VerifiedOwner: StarApps GmbH
+
   # Other
   ZwzkDf9gv14AgV2uQAqoaAfuberRhqpiQfBhXZDctQGnrX: # sheridan [MX]
     Override:
