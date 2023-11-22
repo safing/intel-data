@@ -29,13 +29,6 @@ notifications:
         payload:
           Key: filter/blockInbound
 
-  dangerous-setting-global-allow-incoming-wrong-display:
-    title: "Wrong Warning - Sorry!"
-    message: |
-      Sorry for the wrong warning: Today we pushed an update to improve the "Dangerous Setting: Incoming Connections" warning for users who disabled "Force Block Incoming Connections" globally. This warning was incorrectly displayed to users whose settings where in good shape. We apologize for the confusion and will take care to test matching these conditions more thoroughly in the future.
-    match: "NumericVersion >= 9006 and Config.filter/blockInbound not == 7 and Config.core/expertiseLevel not sameas developer and Current.UTC.NumericDateTime < 20230821110000"
-    showOnSystem: true
-
   release-channel-staging-warning:
     title: "Using Staging Releases"
     message: |
@@ -69,19 +62,6 @@ notifications:
     match: "Config.core/automaticUpdates is false and Config.core/automaticIntelUpdates is false"
     type: 1 # Warning
     repeat: 168h # 1 week
-    availableActions:
-    - text: "Change Setting"
-      type: open-setting
-      payload:
-        Key: core/automaticIntelUpdates
-
-  update-settings-improved:
-    title: "Update Settings Improved"
-    message: |
-      The settings for controlling automatic updates have been improved. A new setting called "Automatic Intelligence Data Updates" now controls automatic intelligence data updates and has been enabled by default. If you don't want to receive these important data updates, please disable this setting.
-    match: "Config.core/automaticUpdates is false and Install.NumericVersion < 1000012 and NumericVersion >= 1000012"
-    type: 1 # Warning
-    showOnSystem: true
     availableActions:
     - text: "Change Setting"
       type: open-setting
