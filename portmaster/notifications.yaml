@@ -15,6 +15,25 @@ notifications:
         type: open-url
         payload: https://safing.io/blog/2023/10/18/Portmaster-v1.5/?source=Portmaster
 
+  removing-network-rating:
+    title: "Removing Deprecated Network Rating"
+    message: |
+      The deprecated feature "Network Rating" will be fully removed beginning of December 2023.
+
+      [Read about why this happens now and what we have planned for the future instead.](https://safing.io/blog/2023/11/08/removing-deprecated-network-rating/?source=Portmaster)
+    match: "Config.core/enableNetworkRating	is true"
+    type: 1 # Warning
+    showOnSystem: true
+    repeat: 72h # 3 days
+    availableActions:
+      - text: "Read Blog"
+        type: open-url
+        payload: https://safing.io/blog/2023/11/08/removing-deprecated-network-rating/?source=Portmaster
+      - text: "Change Setting"
+        type: open-setting
+        payload:
+          Key: core/enableNetworkRating
+
   dangerous-setting-global-allow-incoming:
     title: "Dangerous Setting: Incoming Connections"
     message: |
