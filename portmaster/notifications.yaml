@@ -6,14 +6,14 @@ notifications:
   # 50-60 characters per line
   # resuling in about 350-400 characters
 
-  release-announcement-v1-5-0:
-    title: "What's New in v1.5"
-    message: "[Read about the new bandwidth graphs in the release blog post](https://safing.io/blog/2023/10/18/Portmaster-v1.5/?source=Portmaster). Thank you for using Portmaster!"
-    match: "Version startswith 1.5."
+  release-announcement-v1-6-2:
+    title: "What's New in v1.6"
+    message: "[Read about importing and exporting settings and app profiles](https://safing.io/blog/2023/12/11/Portmaster-v1.6/?source=Portmaster). Thank you for using Portmaster!"
+    match: "Version startswith 1.6."
     availableActions:
       - text: "Read Blog"
         type: open-url
-        payload: https://safing.io/blog/2023/10/18/Portmaster-v1.5/?source=Portmaster
+        payload: https://safing.io/blog/2023/12/11/Portmaster-v1.6/?source=Portmaster
 
   removing-network-rating:
     title: "Removing Deprecated Network Rating"
