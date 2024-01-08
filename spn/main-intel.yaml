@@ -294,6 +294,16 @@ Hubs:
   ZwzgGWXW5LqE8P6jWfRsSo5XxBHfnotJydsfqgqkGqWNgJ: # StarAppsRomero [CH]
     VerifiedOwner: StarApps GmbH
 
+  # alphexo.dev
+  Zww2CmZMnPPN3mx4y8tQDuSzQjQnUvg3cxXmZXp5S95tvN: # epsilon.alphexo.dev [GB]
+    VerifiedOwner: alphexo.dev  
+    Override:
+      CountryCode: GB
+      Coordinates: # Portsmouth
+        Latitude: 50.8
+        Longitude: -0.8
+        AccuracyRadius: 20
+
   # Other
   ZwzkDf9gv14AgV2uQAqoaAfuberRhqpiQfBhXZDctQGnrX: # sheridan [MX]
     Override:
