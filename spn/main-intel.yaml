@@ -241,48 +241,10 @@ Hubs:
         AccuracyRadius: 20
 
   # nul.lv
-  Zwrw9EyqPaEjpBC3ZvHUN5XWdC3x2SvnrVoYBDAqNkZ1fv: # 1.de.nul.lv [DE]
+  Zwrw9EyqPaEjpBC3ZvHUN5XWdC3x2SvnrVoYBDAqNkZ1fv: # nietzsche.nul.lv [DE]
     VerifiedOwner: nul.lv
-  ZwkRXg3EsVpLw3HHNqfhRB1R4unkavht4jmEdfitVKALuG: # 2.de.nul.lv [DE]
+  Zwwph54BdxB7pusBjZvr7FL9Jze3ZgHNgfxMfSrao5MTtY: # heidegger.nul.lv [DE]
     VerifiedOwner: nul.lv
-  ZwyHvDZaBtmhstLCRR5KdK5AuJg8ScYXEAApsTpHLnY2MR: # 3.de.nul.lv [DE]
-    VerifiedOwner: nul.lv
-  ZwkMhFKAZrpYQwPWXGwBb3xocYy8jzrVJLpShaxDDH4F6r: # 4.de.nul.lv [DE]
-    VerifiedOwner: nul.lv
-  ZwnHm2X2xFMDfVWXSkfcCjPLDGfVhMvH1mc4jLRiudBFnC: # 1.se.nul.lv [SE]
-    VerifiedOwner: nul.lv
-  Zwijwueze9uiYikoQgyiAP242HSmRqoaQs4jSKEXn9DEnv: # 1.cy.nul.lv [CY]
-    VerifiedOwner: nul.lv
-  ZwyZaoN8zNoc6KM65i8syaJ2GQZuCgW1S5Fj3CXEuoFYyA: # 1.gr.nul.lv [GR]
-    VerifiedOwner: nul.lv
-  ZwznqtsQiPCfGK9fYQNPCNWYToEvEcZJGeRuok5q17epw1: # 1.ie.nul.lv [IE]
-    VerifiedOwner: nul.lv
-  ZwsrN8bFUib5eNJE5r9DcLAc7Pqc8ZtwL2HrHx54xuyW7C: # 1.ru.nul.lv [RU]
-    VerifiedOwner: nul.lv
-  ZwxnPcdjCo7FDUCzZ2qM9V5zMdC61DFKDQdsVTALEJTkBN: # 1.ee.nul.lv [EE]
-    VerifiedOwner: nul.lv   
-    Override:
-      CountryCode: EE
-      Coordinates: # Tallinn
-        Latitude: 59.4
-        Longitude: 24.7
-        AccuracyRadius: 20
-  ZwiyYbBBsqhQDZLz1qo4W4Mw4ZRMfR3eobQWqB9fHXnxkZ: # 1.tr.nul.lv [TR]
-    VerifiedOwner: nul.lv   
-    Override:
-      CountryCode: TR
-      Coordinates: # Izmir
-        Latitude: 38.4
-        Longitude: 27.1
-        AccuracyRadius: 20
-  ZwxpaxXGuy1zfQVYgE1Ztam7MnRbr1q7WYgZgKy38VT3GG: # 1.my.nul.lv [MY]
-    VerifiedOwner: nul.lv   
-    Override:
-      CountryCode: MY
-      Coordinates: # Kuala Lumpur
-        Latitude: 3.1
-        Longitude: 101.7
-        AccuracyRadius: 20
         
   # StarApps GmbH
   ZwiACWTwvuWTN6eB6bpL778iqDMjAuwpaAwEcpgLiwmw41:
