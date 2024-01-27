@@ -303,13 +303,21 @@ Hubs:
         Latitude: 50.8
         Longitude: -1.06
         AccuracyRadius: 20
-  Zwsmp5wzqmaGAV6CiBQoptG1ANMMy9BkLRqQc5Xc4pUEVT:  # beta.alphexo.dev [GB]
+  Zwsmp5wzqmaGAV6CiBQoptG1ANMMy9BkLRqQc5Xc4pUEVT: # beta.alphexo.dev [GB]
     VerifiedOwner: alphexo.dev  
     Override:
       CountryCode: GB
       Coordinates: # Portsmouth
         Latitude: 50.79
         Longitude: -1.08
+        AccuracyRadius: 20
+  Zwmq5fHTjn1MLVyEbTFKkpZ2oiTnXyABm4shop8tK5r46F: # gamma.alphexo.dev [GB]
+    VerifiedOwner: alphexo.dev
+    Override:
+      CountryCode: DE
+      Coordinates: # Aachen
+        Latitude: 50.77
+        Longitude: 6.1
         AccuracyRadius: 20
 
   # Other
