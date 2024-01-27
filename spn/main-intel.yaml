@@ -295,13 +295,21 @@ Hubs:
     VerifiedOwner: StarApps GmbH
 
   # alphexo.dev
-  Zww2CmZMnPPN3mx4y8tQDuSzQjQnUvg3cxXmZXp5S95tvN: # epsilon.alphexo.dev [GB]
+  Zwtnso57vkHVZSf1aUPTrxPdPG1DxVsZHtTGUBm2ZpkD6Z: # alpha.alphexo.dev [GB]
     VerifiedOwner: alphexo.dev  
     Override:
       CountryCode: GB
       Coordinates: # Portsmouth
         Latitude: 50.8
-        Longitude: -0.8
+        Longitude: -1.06
+        AccuracyRadius: 20
+  Zwsmp5wzqmaGAV6CiBQoptG1ANMMy9BkLRqQc5Xc4pUEVT:  # beta.alphexo.dev [GB]
+    VerifiedOwner: alphexo.dev  
+    Override:
+      CountryCode: GB
+      Coordinates: # Portsmouth
+        Latitude: 50.79
+        Longitude: -1.08
         AccuracyRadius: 20
 
   # Other
