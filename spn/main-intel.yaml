@@ -218,26 +218,34 @@ Hubs:
     Trusted: true
     VerifiedOwner: Safing
 
-  # CoinFundIt.com
-  Zwn59zsKETQwrPQ37oiQLMDDY5SSLKpxvpZh2u2jTfLdbb: # per-spn.CoinFundIt.com [AU]
-    VerifiedOwner: CoinFundIt.com
+  # CoinFund.app
+  Zwn59zsKETQwrPQ37oiQLMDDY5SSLKpxvpZh2u2jTfLdbb: # per-spn.CoinFund.app [AU]
+    VerifiedOwner: CoinFund.app
     Override:
       CountryCode: AU
       Coordinates: # Perth
         Latitude: -31.57
         Longitude: 115.51
         AccuracyRadius: 20
-  ZwqBAzGqifBAFKFW1GQijNM18pi7BnWH34GyKBF7KB5fC5: # mel-spn.CoinFundIt.com [AU]
-    VerifiedOwner: CoinFundIt.com
-  ZwrqwfpgoipNdvN47AbzFQFBzH2KrhYV8wr1igUe1qhwDj: # syd-spn.CoinFundIt.com [AU]
-    VerifiedOwner: CoinFundIt.com
-  Zwv6mhprRozJMWZATXBuzrxjnXMpWncmKBeQj4xrK4M3ks: # bris-spn.CoinFundIt.com [AU]
-    VerifiedOwner: CoinFundIt.com
+  ZwqBAzGqifBAFKFW1GQijNM18pi7BnWH34GyKBF7KB5fC5: # mel-spn.CoinFund.app [AU]
+    VerifiedOwner: CoinFund.app
+  ZwrqwfpgoipNdvN47AbzFQFBzH2KrhYV8wr1igUe1qhwDj: # syd-spn.CoinFund.app [AU]
+    VerifiedOwner: CoinFund.app
+  Zwv6mhprRozJMWZATXBuzrxjnXMpWncmKBeQj4xrK4M3ks: # bris-spn.CoinFund.app [AU]
+    VerifiedOwner: CoinFund.app
     Override:
       CountryCode: AU
       Coordinates: # Perth
         Latitude: -27.28
         Longitude: 153.2
+        AccuracyRadius: 20
+  Zwv7zmk7NpsxHZhLAXeqbtDU9aviPSM48vHAq75tK6RWnc: # sg-spn.CoinFund.app	[SG]
+    VerifiedOwner: CoinFund.app
+    Override:
+      CountryCode: SG
+      Coordinates: # Singapore
+        Latitude: 0.88
+        Longitude: 104.00
         AccuracyRadius: 20
 
   # nul.lv
