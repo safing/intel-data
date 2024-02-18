@@ -13,6 +13,7 @@ activision.com
 adaptivecards.io
 adcentercommunity.com
 adecn.com
+adjust.com
 adnxs-simple.com
 adnxs.com
 adnxs.net
@@ -25,6 +26,8 @@ akadns.net
 akadns6.net
 akamaized.net
 anti-spamtools.org
+api.live.net
+apis.live.net
 appcenter.ms
 applicationinsights.io
 applicationinsights.us
@@ -33,6 +36,7 @@ apps.mil
 appsplatform.us
 appsplatformportals.us
 aquantive.com
+aria.microsoft.com
 aspnetcdn.com
 assets-yammer.com
 atdmt.com
@@ -92,6 +96,7 @@ bingplaces.com
 bingviz.com
 blizzard.com
 botframework.com
+branch.io
 brktx.com
 c-msedge.net
 callofduty.com
@@ -118,6 +123,7 @@ com.mk
 com.tn
 cortana.ai
 courttv.com
+crashlytics.com
 crmlive-int.com
 crmlive-ppe.com
 crmlive.net
@@ -139,6 +145,7 @@ discoverbing.com
 dnset.com
 do.com
 docs.com
+docs.live.net
 download.com
 downloadgamecenter.net
 downloadgamecenter.org
@@ -220,8 +227,10 @@ expedia.com
 expediapartner.com
 expediapartners.com
 explore.ms
+fabric.io
 facultyconnection.com
 farolatino.com
+favorites.live.com
 fedtest-int.com
 fedtest.com
 fluentui.dev
@@ -233,6 +242,7 @@ forzamotorsport.net
 freepowerpoint.com
 fullaudio.com
 futurefed.com
+g.live.com
 gamepass.com
 geotrust.com
 getmicrosoftkey.com
@@ -253,6 +263,9 @@ gowindowslive.com
 gowindowslive.net
 gowindowslive.org
 groupme.com
+groups.office.live.com
+groups.photos.live.com
+groups.skydrive.live.com
 halowaypoint.com
 hardware-update.com
 healthvolt.net
@@ -313,7 +326,10 @@ livestats.com
 livestats.net
 loganalytics.io
 loganalytics.us
+login.live.com
+login.microsoftonline.com
 login.msa.akadns6.net
+login.windows.net
 luis.ai
 lync.com
 m1-msedge.net
@@ -589,6 +605,7 @@ mikrosoft.tv
 minecraft.net
 mixplay.tv
 mobileconfig.net
+mobileengagement.windows.net
 mobilepcpartners.com
 moneycentral.com
 moonport.com
@@ -727,8 +744,10 @@ nuget.info
 nuget.org
 o365filtering.com
 oaspapps.com
+oauth.live.com
 oberon-media.com
 od2.com
+odc.officeapps.live.com
 office
 office-int.com
 office-int.net
@@ -737,6 +756,7 @@ office.net
 office2010test.com
 office365.com
 office365.us
+officeapps.live.com
 officecdn-microsoft-com.akamaized.net
 officeformac.com
 officelive.com
@@ -747,10 +767,12 @@ officeppe.com
 officeppe.net
 omniroot.com
 omtrdc.net
+oneclient.sfx.ms
 onedrive.co
 onedrive.co.uk
 onedrive.com
 onedrive.eu
+onedrive.live.com
 onedrive.net
 onedrive.us
 onenote.com
@@ -762,19 +784,23 @@ osdinfra.net
 outlook.com
 outlook.eu
 outlookmobile.com
+p.sfx.ms
 parlano.com
 partnermarketplace.com
 passalong.com
 passport.net
 payplay.fm
 phonefactor.net
+photos.live.com
 phx.gbl
 playfab.com
 playfabapi.com
 playmsn.com
 playout.se
 playwright.dev
+policies.live.net
 poptang.com
+posarprodcssservice.accesscontrol.windows.net
 powerapps.com
 powerapps.us
 powerappsportals.com
@@ -789,6 +815,7 @@ projectzerofriction.org
 puretracks.com
 rdst-internal.net
 realtydesktop.net
+redemptionservices.accesscontrol.windows.net
 riseofnationsinsider.com
 s-microsoft.com
 s-msft.com
@@ -803,7 +830,9 @@ searchalliance.com
 searchperks.com
 sensormap.org
 sertifikasi-microsoft.com
+servicebus.windows.net
 serving-sys.com
+settings.live.net
 sfbassets.com
 sfx.ms
 sharedview.com
@@ -812,7 +841,9 @@ sharepoint.com
 sharepoint.us
 sharepointonline.com
 signalr.net
+skyapi.live.net
 skydrive.com
+skydrive.live.com
 skype-dns.akadns.net
 skype-edf.akadns.net
 skype-registar.akadns.net
@@ -828,17 +859,21 @@ skypedata.akadns.net
 skypeforbusiness.com
 skypeforbusiness.us
 skyprod.akadns.net
+snapi.live.net
 software.net
 softwarewow.com
 soundbuzz.com
 soundsgood.com
 spohealth.com
+spoprod-a.akamaihd.net
 sqlserverenergy.com
 staffhub.ms
 staging-bing-int.com
 start.com
 startwindowsmobile.com
 stationq.com
+storage.live.com
+storage.msn.com
 subscribenet.com
 svc.ms
 sway-cdn.com
@@ -849,6 +884,8 @@ sysinternals.com
 t-msedge.net
 task.ms
 taskmarket.com
+token.cp.microsoft.com
+tokensit.cp.microsoft-tst.com
 toolup.com
 trafficmanager.cn
 trafficmanager.net
@@ -858,6 +895,7 @@ urge.com
 usgovcloudapi.net
 usgovtrafficmanager.net
 v0cdn.net
+vas.samsungapps.com
 vboxprod.com
 videoindexer.ai
 vidzone.tv
@@ -865,6 +903,7 @@ virtualearth.net
 visualstudio.com
 visualstudio.net
 visualstudio.us
+vortex.data.microsoft.com
 vsassets.io
 vscode-cdn.net
 vscode-unpkg.net
