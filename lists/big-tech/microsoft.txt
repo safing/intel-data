@@ -13,6 +13,7 @@ activision.com
 adaptivecards.io
 adcentercommunity.com
 adecn.com
+adjust.com
 adnxs-simple.com
 adnxs.com
 adnxs.net
@@ -24,6 +25,7 @@ aka.ms
 akadns.net
 akadns6.net
 akamaized.net
+akamaihd.net
 anti-spamtools.org
 appcenter.ms
 applicationinsights.io
@@ -92,6 +94,7 @@ bingplaces.com
 bingviz.com
 blizzard.com
 botframework.com
+branch.io
 brktx.com
 c-msedge.net
 callofduty.com
@@ -118,6 +121,7 @@ com.mk
 com.tn
 cortana.ai
 courttv.com
+crashlytics.com
 crmlive-int.com
 crmlive-ppe.com
 crmlive.net
@@ -220,6 +224,7 @@ expedia.com
 expediapartner.com
 expediapartners.com
 explore.ms
+fabric.io
 facultyconnection.com
 farolatino.com
 fedtest-int.com
@@ -313,6 +318,7 @@ livestats.com
 livestats.net
 loganalytics.io
 loganalytics.us
+login.microsoftonline.com
 login.msa.akadns6.net
 luis.ai
 lync.com
@@ -849,6 +855,7 @@ sysinternals.com
 t-msedge.net
 task.ms
 taskmarket.com
+tokensit.cp.microsoft-tst.com
 toolup.com
 trafficmanager.cn
 trafficmanager.net
@@ -858,6 +865,7 @@ urge.com
 usgovcloudapi.net
 usgovtrafficmanager.net
 v0cdn.net
+vas.samsungapps.com
 vboxprod.com
 videoindexer.ai
 vidzone.tv
