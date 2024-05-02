@@ -2,23 +2,25 @@ cards:
   - title: Company Journey Update
     url: https://safing.io/blog/2024/01/02/JourneyUpdate2401/?source=Portmaster
     body: |
-      As expected, we're now (back) at 3% towards hiring an Android Developer, due to the shift in our 3-month evaluation window. Last December's success set a high bar! Every contribution keeps us moving forward — your support is key. Let's aim high together!
-    footer: |
-      Progress shows the percentage of the goal that Safing can sustain, based on the last three full months.  
-      Updated: April 2024
-    progress:
-      percent: 3
-      style: "background: linear-gradient(to right, #03a9f4, #29b6f6);"
+      We are now at 97% total coverage over the last three months, as mentioned before we expect to hover around the 100% a bit, so some months above and below are okay. Last December's success set a high bar! Every contribution keeps us moving forward — your support is key. Let's aim high together!
+
+      Updated: May 2024
+    # footer: |
+    #   Progress shows the percentage of the goal that Safing can sustain, based on the last three full months.  
+    #   Updated: May 2024
+    # progress:
+    #   percent: 0
+    #   style: "background: linear-gradient(to right, #03a9f4, #29b6f6);"
 
   - title: Bi-Weekly Live Stream
     url: https://www.youtube.com/c/safingio
     body: |
       Join our bi-weekly live stream where we discuss all things Portmaster and answer questions live from the community!
 
-      April live streams:
+      May live streams:
 
-      - [April 4th](https://www.youtube.com/c/safingio)
-      - [April 18th](https://www.youtube.com/c/safingio)
+      - [May 2th](https://www.youtube.com/c/safingio)
+      - [May 16th](https://www.youtube.com/c/safingio)
 
       Get talking during the event in our [Discord room](https://discord.gg/safing).  
       Watch [previous live streams on Youtube](https://www.youtube.com/c/safingio).
