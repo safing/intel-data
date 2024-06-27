@@ -4,6 +4,7 @@
 
 # From https://github.com/curl/curl/wiki/DNS-over-HTTPS
 adblock.mydns.network
+anycast.uncensoreddns.org
 cloudflare-dns.com
 commons.host
 dns-family.adguard.com
@@ -11,6 +12,7 @@ dns-nyc.aaflalo.me
 dns.aa.net.uk
 dns.aaflalo.me
 dns.adguard.com
+dns.cfiec.net
 dns.containerpi.com
 dns.digitale-gesellschaft.ch
 dns.dns-over-https.com
@@ -23,8 +25,11 @@ dns.nextdns.io
 dns.quad9.net
 dns.switch.ch
 dns.twnic.tw
+dns.yandex.net
+dns1.dnsfilter.com
 dns10.quad9.net
 dns11.quad9.net
+dns2.dnsfilter.com
 dns9.quad9.net
 dnsforge.de
 doh-de.blahdns.com
@@ -57,6 +62,7 @@ dohdot.coxlab.net
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
 fi.doh.dns.snopyta.org
+freedns.controld.com
 ibksturm.synology.me
 ibuki.cgnat.net
 jcdns.fun
@@ -68,4 +74,5 @@ private.canadianshield.cira.ca
 protected.canadianshield.cira.ca
 rdns.faelix.net
 resolver-eu.lelux.fi
+safeservedns.com
 security.cloudflare-dns.com
