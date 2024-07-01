@@ -1,26 +1,13 @@
 cards:
-  - title: Company Journey Update
-    url: https://safing.io/blog/2024/01/02/JourneyUpdate2401/?source=Portmaster
-    body: |
-      We are now at 86% total coverage over the last three months, and as mentioned before we expected some fluctuation and are already seeing upward trends again. Last December's success set a high bar! Every contribution keeps us moving forward — your support is key. Let's aim high together!
-
-      Updated: June 2024
-    # footer: |
-    #   Progress shows the percentage of the goal that Safing can sustain, based on the last three full months.  
-    #   Updated: June 2024
-    # progress:
-    #   percent: 0
-    #   style: "background: linear-gradient(to right, #03a9f4, #29b6f6);"
-
   - title: Bi-Weekly Live Stream
     url: https://www.youtube.com/c/safingio
     body: |
       Join our bi-weekly live stream where we discuss all things Portmaster and answer questions live from the community!
 
-      June live streams:
+      July live streams:
 
-      - [June 13th](https://www.youtube.com/c/safingio)
-      - [June 27th](https://www.youtube.com/c/safingio)
+      - [July 11th](https://www.youtube.com/c/safingio)
+      - [July 25th](https://www.youtube.com/c/safingio)
 
       Get talking during the event in our [Discord room](https://discord.gg/safing).  
       Watch [previous live streams on Youtube](https://www.youtube.com/c/safingio).
