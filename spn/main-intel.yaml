@@ -330,6 +330,13 @@ Hubs:
         Latitude: 19
         Longitude: -99
         AccuracyRadius: 20
+  ZwngKTaqUYD3utubAZhvoSZB29Px1HSjvnpmuCsFoNdAgX: # privn [NL]
+    Override:
+      CountryCode: NL
+      Coordinates: # Amsterdam
+        Latitude: 52.12
+        Longitude: 4.73
+        AccuracyRadius: 20
 
 # Advisories
 
