@@ -1,12 +1,19 @@
 cards:
-  - title: Bi-Weekly Live Stream
-    url: https://www.youtube.com/c/safingio
+  # - title: Bi-Weekly Live Stream
+  #   url: https://www.youtube.com/c/safingio
+  #   body: |
+  #     Join our bi-weekly live stream where we discuss all things Portmaster and answer questions live from the community!
+
+  #     November live streams:
+
+  #     - [November 14th](https://www.youtube.com/c/safingio)
+
+  #     Get talking during the event in our [Discord room](https://discord.gg/safing).  
+  #     Watch [previous live streams on Youtube](https://www.youtube.com/c/safingio).
+
+  - title: "Safing Joins Forces with IVPN: A New Chapter Begins"
+    url: https://safing.io/blog/2024/12/03/a-new-chapter-begins/
     body: |
-      Join our bi-weekly live stream where we discuss all things Portmaster and answer questions live from the community!
+      We're excited to announce that Safing is being acquired by IVPN, marking the beginning of a new era for our company and our products. This decision comes after months of collaboration and careful consideration, and we believe it will bring significant benefits to our users and the privacy community as a whole.
 
-      November live streams:
-
-      - [November 14th](https://www.youtube.com/c/safingio)
-
-      Get talking during the event in our [Discord room](https://discord.gg/safing).  
-      Watch [previous live streams on Youtube](https://www.youtube.com/c/safingio).
+      Read more about this in [our announcement](https://safing.io/blog/2024/12/03/a-new-chapter-begins/) or watch the [announcment video](https://www.youtube.com/watch?v=O2Maf2u4Z90) and the [live Q&A](https://www.youtube.com/watch?v=BLBGM--fxjg).
