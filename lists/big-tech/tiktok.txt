@@ -13,3 +13,4 @@ www.tiktokv.com
 www.ttwstatic.com
 mon.tiktok.com
 *.zijieapi.com
+*.amemv.com
