@@ -217,6 +217,15 @@ Hubs:
   ZwzBf2xCd5Jcy5MwmnQcGUXZYfGj4JyJFFPZrDwgxqU9SF: # sento [US]
     Trusted: true
     VerifiedOwner: Safing
+  ZwzsJSTeqcUg3on3P4dMsR7uQsGrvMimrkaJZNv5jj87Zn: # zentara [DE]
+    Trusted: true
+    VerifiedOwner: Safing
+    Override:
+      CountryCode: DE
+      Coordinates: # Dusseldorf
+        Latitude: 51.22
+        Longitude: 6.78
+        AccuracyRadius: 20
 
   # CoinFund.app
   Zwn59zsKETQwrPQ37oiQLMDDY5SSLKpxvpZh2u2jTfLdbb: # per-spn.CoinFund.app [AU]
