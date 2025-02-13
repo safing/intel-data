@@ -346,6 +346,15 @@ Hubs:
         Latitude: 52.12
         Longitude: 4.73
         AccuracyRadius: 20
+  Zwy5kCsdAjRg5hKbiSjPLkHJ8RZzkFzFWooRYAkz5xJuDK: # zenifoz [UK]
+    Override:
+      CountryCode: UK
+      Coordinates: # London
+        Latitude: 51.506
+        Longitude: -0.128
+        AccuracyRadius: 20
+  ZwjTDiSZXr15cC2w6cDofdzCR3dUXwyX8FbRNaQPq6KFZP: # zenifoz [UK]
+    Discontinued: true
 
 # Advisories
 
