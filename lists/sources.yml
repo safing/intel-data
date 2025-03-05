@@ -86,18 +86,6 @@ sources:
     contribute: "https://github.com/AdAway/AdAway/issues"
     license: "CC BY 3.0"
 
-  - name: "CoinBlocker"
-    id: "CB-MW"
-    description: "Collection of Domain used by cryptominers"
-    category: "EXPERIMENTS"
-    urls:
-    - url: "https://zerodot1.gitlab.io/CoinBlockerLists/list.txt"
-      type: "Domain"
-      parser: "domainlist"
-    website: "https://zerodot1.gitlab.io/CoinBlockerListsWeb/"
-    contribute: "https://gitlab.com/ZeroDot1/CoinBlockerLists/issues"
-    license: AGPLv3
-
   - name: "Dan Pollock's List of Bad Stuff - someonewhocares.org"
     id: "SWC"
     description: "List of miscellaneous bad stuff by Dan Pollock."
