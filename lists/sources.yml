@@ -1,4 +1,4 @@
-version: "v2025.03.10"
+version: "v2025.03.11"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
@@ -131,34 +131,6 @@ sources:
     website: "https://bigdargon.github.io/hostsVN/"
     contribute: "https://github.com/bigdargon/hostsVN/issues"
     license: "MIT"
-
-  - name: "hostsVN Gambling List (Vietnam)"
-    id: "BD-G"
-    description: "hostsVN's collection of gambling websites, with a local focus on Vietnam."
-    category: "GAMBL"
-    urls:
-    - url: "https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-gambling"
-      type: "Domain"
-      parser: "hostsfile"
-    website: "https://bigdargon.github.io/hostsVN/"
-    contribute: "https://github.com/bigdargon/hostsVN/issues"
-    license: "MIT"
-
-  - name: "MVPS Hosts File"
-    id: "MVPS"
-    description: "List of ads, malware and other things."
-    category: "BAD"
-    urls:
-    - url: "http://winhelp2002.mvps.org/hosts.zip"
-      type: "Domain"
-      parser: "hostsfile"
-      transformer:
-        type: "unzip"
-        args:
-          file: hosts
-    website: "http://winhelp2002.mvps.org/hosts.htm"
-    contribute: "mailto:winhelp2002@gmail.com"
-    license: "CC-BY-NC-SA-4.0"
 
   - name: "Peter Lowe's Collection of Bad Domains"
     id: "PL-B"
@@ -479,18 +451,6 @@ sources:
     category: "BAD"
     urls:
     - url: "https://dblw.oisd.nl/"
-      type: "Domain"
-      parser: "domainlist"
-    website: "https://oisd.nl/"
-    contribute: "https://oisd.nl/reportfalsepositive"
-    license: "Free to use."
-
-  - name: "OISD.nl Extra Blocklist"
-    id: "OISD-EXTRA"
-    description: "An addition to the main OISD.nl blocklist, with the possibility of breaking websites."
-    category: "EXPERIMENTS"
-    urls:
-    - url: "https://dblw.oisd.nl/extra/"
       type: "Domain"
       parser: "domainlist"
     website: "https://oisd.nl/"
