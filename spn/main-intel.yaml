@@ -346,6 +346,13 @@ Hubs:
         Latitude: 51.506
         Longitude: -0.128
         AccuracyRadius: 20
+  Zwj6mzjX3JULUguVJH833uVv1qvHVbqPWTawfCQZUyFsf2: # NL-by-gbzret4d [NL]
+    Override:
+      CountryCode: NL
+      Coordinates: # Amsterdam
+        Latitude: 52.396
+        Longitude: 4.851
+        AccuracyRadius: 20
   ZwjTDiSZXr15cC2w6cDofdzCR3dUXwyX8FbRNaQPq6KFZP: # zenifoz [GB]
     Discontinued: true
   Zwu3VoR3KUTEcWN3j2RaSXi72UWwjoXFuchcjrJpfhfcm2: # NL-by-lazyduckfuck [NL]
