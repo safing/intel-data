@@ -353,6 +353,13 @@ Hubs:
         Latitude: 52.396
         Longitude: 4.851
         AccuracyRadius: 20
+  ZwpePssHde7E8i5qvygHAGFE1ruKt22v9gvxmc5X2JfJbS: # NL-AKAKA [NL]
+    Override:
+      CountryCode: NL
+      Coordinates: # Eygelshoven, Netherlands
+        Latitude: 50.896
+        Longitude: 6.070
+        AccuracyRadius: 20
   ZwjTDiSZXr15cC2w6cDofdzCR3dUXwyX8FbRNaQPq6KFZP: # zenifoz [GB]
     Discontinued: true
   Zwu3VoR3KUTEcWN3j2RaSXi72UWwjoXFuchcjrJpfhfcm2: # NL-by-lazyduckfuck [NL]
