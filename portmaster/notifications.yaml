@@ -6,6 +6,21 @@ notifications:
   # 50-60 characters per line
   # resuling in about 350-400 characters
 
+  filterlist-trim-oisd-nsfw:
+    title: "Optimizing OISD-NSFW Filter List"
+    message: |
+      Portmaster has been using the OISD-NSFW filter list for a long time now. While this is a high quality list, it has grown very fast in the last years and is beginning to impact Portmaster performance.
+
+      Fortunately, OISD offers a smaller variant of their NSFW list, which Portmaster will switch to in the coming days. This change is automatic and there is nothing you have to do.
+
+      In case you want to continue using the [complete OISD-NSFW filter list](https://oisd.nl/setup), you can still [download it manually from HERE](https://oisd.nl/setup) and tell Portmaster to use it by configuring the Customer Filter List setting.
+    match: 'Config.filter/lists.#[%\"NSFW\"] exists or Config.filter/lists.#[%\"NSFWM\"] exists or Config.filter/lists.#[%\"OISD-NSFW\"] exists'
+    type: 1 # Warning
+    availableActions:
+    - text: "OISD Website"
+      type: open-url
+      payload: https://oisd.nl
+
   release-announcement-v1-6-2:
     title: "What's New in v1.6"
     message: "[Read about importing and exporting settings and app profiles](https://safing.io/blog/2023/12/11/Portmaster-v1.6/?source=Portmaster). Thank you for using Portmaster!"
