@@ -459,10 +459,10 @@ sources:
 
   - name: "OISD.nl NSFW Blocklist"
     id: "OISD-NFSW"
-    description: "A mixed NSFW blocklist by OISD."
+    description: "The small NSFW blocklist by OISD."
     category: "NSFWM"
     urls:
-    - url: "https://dblw.oisd.nl/nsfw/"
+    - url: "https://nsfw-small.oisd.nl/domainswild"
       type: "Domain"
       parser: "domainlist"
     website: "https://oisd.nl/"
