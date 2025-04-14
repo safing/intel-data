@@ -1,4 +1,4 @@
-version: "v2025.03.11"
+version: "v2025.04.14"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
@@ -457,12 +457,12 @@ sources:
     contribute: "https://oisd.nl/reportfalsepositive"
     license: "Free to use."
 
-  - name: "OISD.nl NSFW Blocklist"
+  - name: "OISD.nl NSFW Blocklist (small)"
     id: "OISD-NFSW"
-    description: "A mixed NSFW blocklist by OISD."
+    description: "The small NSFW blocklist by OISD."
     category: "NSFWM"
     urls:
-    - url: "https://dblw.oisd.nl/nsfw/"
+    - url: "https://nsfw-small.oisd.nl/domainswild"
       type: "Domain"
       parser: "domainlist"
     website: "https://oisd.nl/"
