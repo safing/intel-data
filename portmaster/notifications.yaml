@@ -6,6 +6,35 @@ notifications:
   # 50-60 characters per line
   # resuling in about 350-400 characters
 
+  release-announcement-v2:
+    title: "Test Portmaster v2 beta"
+    message: |
+        Portmaster v2 is now available in beta. We invite you to test the new version and give your feedback.
+
+        New additions:
+        - Offline installers
+        - A new and improved update system (less storage required)
+        - Correct install paths (e.g. improved support for immutable distros)
+        - DNS Monitoring (better VPN compatibility)
+        - SQLite Database Backend (better stability and smaller databases)
+
+        Install notes:
+        - During the Portmaster v2 install process, your configuration from Portmaster v1 is copied and Portmaster v1 is removed
+        - To roll back to v1, simply uninstall Portmaster v2 and install Portmaster v1 again 
+
+        Download links for v2 beta are available in the Beta section on the [Portmaster Download page](https://safing.io/download/#beta). 
+
+        Please share your feedback and any issues you encountered via [GitHub](https://github.com/safing/portmaster/issues) or the dedicated beta channel on our [Discord](https://safing.io/discord).
+
+        Thank you for participating!
+        
+    match: "(Updates.Channel sameas beta or Updates.Channel sameas staging or Updates.Channel sameas support) and Version startswith 1."
+    repeat: 168h # 1 week
+    availableActions:
+    - text: "Download beta"
+      type: open-url
+      payload: https://safing.io/download/#beta
+
   filterlist-trim-oisd-nsfw:
     title: "Optimizing OISD-NSFW Filter List"
     message: |
