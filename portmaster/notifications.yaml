@@ -6,34 +6,40 @@ notifications:
   # 50-60 characters per line
   # resuling in about 350-400 characters
 
-  release-announcement-v2:
-    title: "Test Portmaster v2 beta"
+  release-announcement-v2-stable:
+    title: "Portmaster v2 Official Release"
     message: |
-        Portmaster v2 is now available in beta. We invite you to test the new version and give your feedback.
+        We’re excited to announce the official release of Portmaster v2! The latest stable version of v2 is our recommended default for all Portmaster users.
 
-        New additions:
-        - Offline installers
-        - A new and improved update system (less storage required)
-        - Correct install paths (e.g. improved support for immutable distros)
-        - DNS Monitoring (better VPN compatibility)
-        - SQLite Database Backend (better stability and smaller databases)
-
-        Install notes:
-        - During the Portmaster v2 install process, your configuration from Portmaster v1 is copied and Portmaster v1 is removed
-        - To roll back to v1, simply uninstall Portmaster v2 and install Portmaster v1 again 
-
-        Download links for v2 beta are available in the Beta section on the [Portmaster Download page](https://safing.io/download/#beta). 
-
-        Please share your feedback and any issues you encountered via [GitHub](https://github.com/safing/portmaster/issues) or the dedicated beta channel on our [Discord](https://safing.io/discord).
-
-        Thank you for participating!
+        Portmaster v2 doesn’t introduce flashy new features, but it brings major foundational improvements that pave the way for future innovation and stability. These core changes require a fresh install, as they couldn’t be delivered via auto-update.
         
-    match: "(Updates.Channel sameas beta or Updates.Channel sameas staging or Updates.Channel sameas support) and Version startswith 1."
+        Key improvements:
+        - Offline Installers  
+        Set up Portmaster without needing an internet connection — perfect for secure or air-gapped environments.
+
+        - Streamlined Updates  
+        Updates now download and install faster and use less storage, making the whole process more efficient.
+
+        - Better Linux Support  
+        Improved compatibility with immutable Linux distributions such as Fedora Silverblue and NixOS.
+
+        - Smarter DNS Monitoring  
+        Enhanced VPN compatibility and privacy, with more robust DNS monitoring.
+
+        - Modern Database Engine  
+        A switch to an SQLite backend increases stability and keeps the database lean.
+
+        Upgrading to Portmaster v2 is simple. The installer will automatically migrate your existing v1 configuration and remove Portmaster v1, ensuring a smooth transition.
+
+        If you need to revert for any reason, you can easily roll back: just uninstall Portmaster v2 and reinstall v1 - your settings will be preserved. Note: Leave ‘Delete application data’ unchecked on Windows during the uninstall process.
+
+        Please share your feedback and any issues you encountered via [GitHub](https://github.com/safing/portmaster/issues) or on [Discord](https://safing.io/discord).
+    match: "Version startswith 1."
     repeat: 168h # 1 week
     availableActions:
-    - text: "Download beta"
+    - text: "Download v2"
       type: open-url
-      payload: https://safing.io/download/#beta
+      payload: https://safing.io/download/
 
   filterlist-trim-oisd-nsfw:
     title: "Optimizing OISD-NSFW Filter List"
@@ -49,15 +55,6 @@ notifications:
     - text: "OISD Website"
       type: open-url
       payload: https://oisd.nl
-
-  release-announcement-v1-6-2:
-    title: "What's New in v1.6"
-    message: "[Read about importing and exporting settings and app profiles](https://safing.io/blog/2023/12/11/Portmaster-v1.6/?source=Portmaster). Thank you for using Portmaster!"
-    match: "Version startswith 1.6."
-    availableActions:
-      - text: "Read Blog"
-        type: open-url
-        payload: https://safing.io/blog/2023/12/11/Portmaster-v1.6/?source=Portmaster
 
   removing-network-rating:
     title: "Removing Deprecated Network Rating"
