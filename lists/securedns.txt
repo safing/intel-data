@@ -27,6 +27,7 @@ dns10.quad9.net
 dns11.quad9.net
 dns9.quad9.net
 dnsforge.de
+dnsguard.pub
 doh-de.blahdns.com
 doh-fi.blahdns.com
 doh-jp.blahdns.com
