@@ -43,6 +43,8 @@
 176.56.236.175 # dns.aaflalo.me
 176.9.1.117 # dnsforge.de
 176.9.93.198 # dnsforge.de
+179.61.253.223 # dnsguard.pub
+181.214.231.96 # dnsguard.pub
 178.62.214.105 # jcdns.fun
 185.134.196.54 # rdns.faelix.net
 185.134.197.54 # rdns.faelix.net
