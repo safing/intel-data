@@ -33,7 +33,7 @@ notifications:
     availableActions:
     - text: "Take survey"
       type: open-url
-      payload: https://account.safing.io/
+      payload: https://account.safing.io/account/sign_in/
 
   release-announcement-v2-stable:
     title: "Portmaster v2 Official Release"
