@@ -1,0 +1,17 @@
+# Copyright by Intel-Data Authors
+# Managed by the Community at https://github.com/safing/intel-data
+# License: CC-BY-SA-4.0
+
+www.tiktok.com
+www.douyin.com
+www.musical.ly
+www.tiktokcdn.com
+www.tiktokcdn-us.com
+business.tiktok.com
+www.byteoversea.com
+www.tiktokv.com
+www.ttwstatic.com
+mon.tiktok.com
+*.zijieapi.com
+*.amemv.com
+livedata.douyin.com
