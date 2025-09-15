@@ -6,35 +6,6 @@ notifications:
   # 50-60 characters per line
   # resuling in about 350-400 characters
 
-  user-survey-2025:
-    title: "Portmaster User Survey 2025"
-    message: |
-        We are launching our 2025 User Survey to get feedback from the Postmaster community. 
-
-        What is the survey about?
-        - We welcome your thoughts on Portmaster usability, compatibility with other tools and services, and future feature development.
-
-        Who should participate? 
-        - The survey is for every user of Postmaster. If you are reading this message, you are invited.
-
-        How long it takes to complete?
-        - It takes just 5-15 minutes to complete, depending on the level of detail you provide.
-
-        Notes on privacy:
-        1. This survey was built with open source software, hosted on Safing infrastructure
-        2. Most questions are optional
-        3. Your submission is anonymous 
-
-        To access the survey, log in to your Safing account on [safing.io](http://safing.io/). 
-
-        Your answers will help guide our roadmap and ensure we build the features and improvements that matter most to you.
-
-        Thank you for your continued support and for helping us make Portmaster better.
-    availableActions:
-    - text: "Take survey"
-      type: open-url
-      payload: https://account.safing.io/account/sign_in/
-
   release-announcement-v2-stable:
     title: "Portmaster v2 Official Release"
     message: |
