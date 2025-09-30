@@ -169,7 +169,7 @@ Hubs:
     Discontinued: true
   Zwjv9sseEnKtarrxgVtwureUHwghLKyt8oPo7UgLcMJp78: # miranian [IT]
     Discontinued: true
-  ZwjQ2nxpTsNtBfxcGyWHTEmR7sQrs5rpLMUuqH6WvVCJVQ: # atonia [US]
+  ZwzwrMGQu8murmz3nheD8oJ4DN58ZkE2uF2U6RJutVySQH: # atonia [US]
     Trusted: true
     VerifiedOwner: Safing
   Zwvq7fgGuwWM14qStngZK2Z2q94fdHwr9SumtsJ9yufMPr: # lonelak [US]
@@ -219,6 +219,10 @@ Hubs:
     VerifiedOwner: Safing
   ZwzsJSTeqcUg3on3P4dMsR7uQsGrvMimrkaJZNv5jj87Zn: # zentara [DE]
     Discontinued: true
+  ZwvV6jwm2mPrxzwtV3FqvpjysH42o1r448EbSphRShHGkk: # conaka [JP]
+    Trusted: true
+    VerifiedOwner: Safing
+
 
   # CoinFund.app
   Zwn59zsKETQwrPQ37oiQLMDDY5SSLKpxvpZh2u2jTfLdbb: # per-spn.CoinFund.app [AU]
