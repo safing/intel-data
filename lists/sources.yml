@@ -1,4 +1,4 @@
-version: "v2025.04.14"
+version: "v2026.10.30"
 schemaVersion: "v2.0.0"
 categories:
   - name: "Ads & Trackers"
@@ -329,18 +329,6 @@ sources:
     website: "https://github.com/crazy-max/WindowsSpyBlocker"
     contribute: "https://github.com/crazy-max/WindowsSpyBlocker/issues"
     license: "MIT"
-
-  - name: "Abuse.ch URLHaus Domains"
-    id: "UH-D"
-    description: "Services that are malicious and deceptive, possibly hacked and abused. Possibility of false positives."
-    category: "MAL"
-    urls:
-    - url: "https://urlhaus.abuse.ch/downloads/hostfile/"
-      type: "Domain"
-      parser: "hostsfile"
-    website: "https://urlhaus.abuse.ch/"
-    contribute: "https://urlhaus.abuse.ch/api/"
-    license: "CC0-1.0"
 
   - name: "Abuse.ch FEODO Blocklist"
     id: "AC-FE"
